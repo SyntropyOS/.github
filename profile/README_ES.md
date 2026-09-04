@@ -3,7 +3,7 @@
 ![VantaDB](org-mark.gif#gh-dark-mode-only)
 ![VantaDB](org-mark-light.gif#gh-light-mode-only)
 
-**Infraestructura de memoria local para agentes de IA y apps: DB embebida, recuperación híbrida, SDKs, servidor MCP y proxy.**
+**Infraestructura de búsqueda y memoria con prioridad local para aplicaciones, espacios de trabajo de desarrolladores y agentes de IA — todo VantaDB existe para resolver los problemas de memoria de los LLMs en cada capa.**
 
 [🌐 Sitio web](https://vantadb.vercel.app) · [📦 Motor core](https://github.com/ness-e/Vantadb) · [💬 Discusiones](https://github.com/ness-e/Vantadb/discussions) · [📧 Contacto](mailto:eros.messy@gmail.com)
 
