@@ -1,3 +1,6 @@
+![VantaDB](org-mark.gif#gh-dark-mode-only)
+![VantaDB](org-mark-light.gif#gh-light-mode-only)
+
 # VantaDB
 
 **Local-first memory infrastructure for AI agents and apps: embedded DB, hybrid retrieval, SDKs, MCP server and proxy.**
