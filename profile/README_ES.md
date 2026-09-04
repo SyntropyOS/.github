@@ -3,8 +3,6 @@
 ![VantaDB](org-mark.gif#gh-dark-mode-only)
 ![VantaDB](org-mark-light.gif#gh-light-mode-only)
 
-# VantaDB
-
 **Infraestructura de memoria local para agentes de IA y apps: DB embebida, recuperación híbrida, SDKs, servidor MCP y proxy.**
 
 [🌐 Sitio web](https://vantadb.vercel.app) · [📦 Motor core](https://github.com/ness-e/Vantadb) · [💬 Discusiones](https://github.com/ness-e/Vantadb/discussions) · [📧 Contacto](mailto:eros.messy@gmail.com)
