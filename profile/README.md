@@ -3,9 +3,9 @@ English | [Español](README_ES.md)
 ![VantaDB](org-mark.gif#gh-dark-mode-only)
 ![VantaDB](org-mark-light.gif#gh-light-mode-only)
 
-**Persistent local memory infrastructure for apps, developer workspaces, and autonomous agents.**
+<p align="center"><strong>Persistent local memory infrastructure for apps, developer workspaces, and autonomous agents.</strong></p>
 
-[🌐 Website](https://vantadb.vercel.app) · [📦 Core engine](https://github.com/ness-e/Vantadb) · [💬 Discussions](https://github.com/ness-e/Vantadb/discussions) · [📧 Contact](mailto:eros.messy@gmail.com)
+<p align="center">[🌐 Website](https://vantadb.vercel.app) · [📦 Core engine](https://github.com/ness-e/Vantadb) · [💬 Discussions](https://github.com/ness-e/Vantadb/discussions) · [📧 Contact](mailto:eros.messy@gmail.com)</p>
 
 VantaDB is an embedded, crash-safe memory and retrieval engine that runs where your data lives — in-process, zero network. Persistent memory with WAL recovery (CRC32C) and native hybrid search (BM25 + HNSW via RRF) at 1.2ms latency.
 
