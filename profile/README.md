@@ -3,7 +3,7 @@ English | [Español](README_ES.md)
 ![VantaDB](org-mark.gif#gh-dark-mode-only)
 ![VantaDB](org-mark-light.gif#gh-light-mode-only)
 
-**Local-priority search and memory infrastructure for apps, developer workspaces, and AI agents — everything in VantaDB exists to solve LLM memory problems at every layer.**
+**Solving LLM memory locally, at every layer.**
 
 [🌐 Website](https://vantadb.vercel.app) · [📦 Core engine](https://github.com/ness-e/Vantadb) · [💬 Discussions](https://github.com/ness-e/Vantadb/discussions) · [📧 Contact](mailto:eros.messy@gmail.com)
 
