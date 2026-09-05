@@ -7,7 +7,7 @@ English | [Español](README_ES.md)
 
 <p align="center"><a href="https://vantadb.vercel.app">🌐 Website</a> · <a href="https://github.com/ness-e/Vantadb">📦 Core engine</a> · <a href="https://github.com/ness-e/Vantadb/discussions">💬 Discussions</a> · <a href="mailto:eros.messy@gmail.com">📧 Contact</a></p>
 
-VantaDB is an embedded, crash-safe memory and retrieval engine that runs where your data lives — in-process, zero network. Persistent memory with WAL recovery (CRC32C) and native hybrid search (BM25 + HNSW via RRF) at 1.2ms latency.
+VantaDB builds embedded memory components that run where your data already lives: vector, full-text, and hybrid search for applications, devices, local tools, and agents, with no additional services to operate. We model them on brain memory — fast working memory plus durable memory that consolidates what matters — implemented with WAL-backed persistence and native hybrid retrieval.
 
 ## 🚀 Start here
 

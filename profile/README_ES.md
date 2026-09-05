@@ -7,7 +7,7 @@
 
 <p align="center"><a href="https://vantadb.vercel.app">🌐 Sitio web</a> · <a href="https://github.com/ness-e/Vantadb">📦 Motor core</a> · <a href="https://github.com/ness-e/Vantadb/discussions">💬 Discusiones</a> · <a href="mailto:eros.messy@gmail.com">📧 Contacto</a></p>
 
-VantaDB es un motor de memoria y recuperación embebido y crash-safe que corre donde viven tus datos — in-process, cero red. Memoria persistente con recuperación WAL (CRC32C) y búsqueda híbrida nativa (BM25 + HNSW vía RRF) con 1.2ms de latencia.
+VantaDB desarrolla componentes de memoria embebidos que se ejecutan donde ya están tus datos: búsqueda vectorial, de texto completo e híbrida para aplicaciones, dispositivos, herramientas locales y agentes, sin servicios adicionales que operar. Tomamos como modelo la memoria del cerebro — una memoria de trabajo rápida y una memoria duradera que consolida lo importante — implementada con persistencia respaldada por WAL y recuperación híbrida nativa.
 
 ## 🚀 Empieza aquí
 
