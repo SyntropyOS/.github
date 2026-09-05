@@ -3,7 +3,7 @@
 ![VantaDB](org-mark.gif#gh-dark-mode-only)
 ![VantaDB](org-mark-light.gif#gh-light-mode-only)
 
-**Resolvemos la memoria de los LLMs en local, en cada capa.**
+**Infraestructura de memoria persistente local para apps, espacios de trabajo de desarrolladores y agentes autónomos.**
 
 [🌐 Sitio web](https://vantadb.vercel.app) · [📦 Motor core](https://github.com/ness-e/Vantadb) · [💬 Discusiones](https://github.com/ness-e/Vantadb/discussions) · [📧 Contacto](mailto:eros.messy@gmail.com)
 
