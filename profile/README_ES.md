@@ -11,19 +11,20 @@ VantaDB desarrolla componentes de memoria embebidos que se ejecutan donde ya est
 
 ## 🚀 Empieza aquí
 
-| Módulo | Función | Técnica | Docs |
+| Módulo | Objetivo | Técnica | Docs |
 |---|---|---|---|
-| **Motor core** | Memoria local durable con recuperación híbrida para cualquier app | Rust, in-process; WAL (CRC32C); BM25 + HNSW vía RRF | [Arquitectura](https://github.com/ness-e/Vantadb/blob/main/docs/architecture/ARCHITECTURE.md) |
-| **SDK Python** | Memoria para apps y agentes en Python | Bindings PyO3 · `pip install vantadb-py` | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/PYTHON_SDK.md) |
-| **SDK TypeScript** | Memoria para Node, Bun, Deno y navegadores | Con WASM · `npm i vantadb` | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/TS_SDK.md) |
-| **Bindings Node** | Memoria a velocidad nativa para Node.js | napi-rs · `vantadb-node` | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/NODE_SDK.md) |
-| **Build WASM** | Memoria dentro de páginas web y edge runtimes | `vantadb-wasm` · persistencia OPFS/IDB | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/WASM_API.md) |
-| **Servidor MCP** | Memoria para agentes de IA vía MCP | `vantadb-mcp` · stdio/HTTP | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/MCP.md) |
-| **Servidor local** | Motor por HTTP para cualquier lenguaje | `vantadb-server` · API REST | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/HTTP_API.md) |
-| **Proxy LLM** | Memoria en llamadas OpenAI/Anthropic, transparente | Wire proxy · APIs Chat + Messages/Responses | [Código](https://github.com/ness-e/Vantadb/tree/main/vanta-proxy) |
-| **Workspace desktop** | Explorar y gestionar memoria en local | App Tauri | [Docs](https://github.com/ness-e/Vantadb/blob/main/desktop/README.md) |
-| **Providers e integraciones** | Memoria en LangChain, LlamaIndex, CrewAI, Mem0, Ollama… | Adaptadores | [Código](https://github.com/ness-e/Vantadb/tree/main/integrations) |
-| **Web y docs** | Benchmarks, guías, quickstart | Next.js | [Sitio](https://vantadb.vercel.app) |
+| **Motor core** | Conserva la memoria del agente en la máquina que corre tu app | Rust, in-process; write-ahead log (WAL) con CRC32C; BM25 más HNSW fusionados por Reciprocal Rank Fusion (RRF) | [Arquitectura](https://github.com/ness-e/Vantadb/blob/main/docs/architecture/ARCHITECTURE.md) |
+| **Pipeline de memoria** | Eleva recuerdos de notas sueltas a conocimiento consolidado | Cuatro etapas (L0-L3), agnóstico al host, portado de TDAM | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/VANTA_MEMORY.md) |
+| **SDK Python** | Guarda y busca memoria desde Python en una sola llamada rankeada | Bindings PyO3; expiración TTL más `supersede` atómico; `pip install vantadb-py` | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/PYTHON_SDK.md) |
+| **SDK TypeScript** | La misma memoria en Node, Bun, Deno y navegadores | Motor WASM; `npm i vantadb`; exporta e importa JSONL | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/TS_SDK.md) |
+| **Bindings Node** | Corre el motor a velocidad nativa dentro de Node.js | Bindings napi-rs; directorio persistente o `:memory:` | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/NODE_SDK.md) |
+| **Build WASM** | Lleva el motor completo dentro de una página web | 1.35 MB raw; persistencia OPFS en el navegador | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/WASM_API.md) |
+| **Servidor MCP** | Da herramientas de memoria a cualquier cliente Model Context Protocol (MCP) sin red que configurar | stdio JSON-RPC 2.0; lo lanzan Claude Code, Cursor, OpenCode | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/MCP.md) |
+| **Servidor local** | Consulta el motor por HTTP desde cualquier lenguaje | `vantadb-server`; API REST en localhost | [Docs](https://github.com/ness-e/Vantadb/blob/main/docs/api/HTTP_API.md) |
+| **Proxy LLM** | Registra memoria del tráfico OpenAI/Anthropic sin tocar tu código | Wire proxy transparente; APIs Chat más Messages y Responses | [Código](https://github.com/ness-e/Vantadb/tree/main/vanta-proxy) |
+| **Vanta Studio** | Inspecciona registros, esquemas y consultas en una ventana local | App de escritorio Tauri v2; una UI, tres backends | [Docs](https://github.com/ness-e/Vantadb/blob/main/desktop/README.md) |
+| **Providers e integraciones** | Conecta memoria a LangChain, LlamaIndex, CrewAI, Mem0, Ollama, LiteLLM | Paquetes adaptadores en `integrations/` y `providers/` | [Código](https://github.com/ness-e/Vantadb/tree/main/integrations) |
+| **Web y docs** | Lee benchmarks, guías y el quickstart | Sitio Next.js | [Sitio](https://vantadb.vercel.app) |
 
 ## 🤝 Participa
 
