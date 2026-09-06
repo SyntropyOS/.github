@@ -33,4 +33,4 @@ VantaDB es open source bajo la Apache License 2.0.
 - Dale una estrella al [repo core](https://github.com/ness-e/Vantadb) si te es útil.
 - Reporta un bug o pide una feature en el issue tracker.
 - Pregunta y comparte casos de uso en [Discusiones](https://github.com/ness-e/Vantadb/discussions).
-- Explora todos los repos públicos en la [organización VantaDB](https://github.com/orgs/Vantadb/repositories).
+- Explora todos los repos públicos en la [organización Syntropy AI](https://github.com/orgs/syntropyos/repositories).
