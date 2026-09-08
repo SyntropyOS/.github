@@ -1,5 +1,5 @@
-<a href="https://discord.gg/g8nqB3NtXt"><img align="right" src="https://img.shields.io/badge/SYNTROPY-5865F2?logo=discord&logoColor=white" alt="SYNTROPY on Discord"></a>
-<a href="https://opensource.org/licenses/Apache-2.0"><img align="right" src="https://img.shields.io/badge/Apache_2.0-D22128?logo=apache&logoColor=white" alt="Apache 2.0"></a>
+<a href="https://discord.gg/g8nqB3NtXt"><img align="right" src="https://img.shields.io/badge/Syntropy-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="SYNTROPY on Discord"></a>
+<a href="https://opensource.org/licenses/Apache-2.0"><img align="right" src="https://img.shields.io/badge/Apache-2.0-181717?style=for-the-badge&logo=apache&logoColor=white" alt="Apache 2.0"></a>
 <div align="left"><a href="./README_EN.md">English</a> | Español</div>
 
 <picture>
