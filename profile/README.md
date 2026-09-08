@@ -57,22 +57,6 @@ See [ROADMAP.md](../ROADMAP.md).
 
 ---
 
-## Getting started
-
-### VantaDB (Memory)
-
-```bash
-# Python
-pip install vantadb-py
-
-# TypeScript
-npm install vantadb
-```
-
-📖 **Documentation**: [VantaDB Docs](https://github.com/ness-e/Vantadb/tree/main/docs)
-
----
-
 ## Contribute
 
 - **🐛 Report bugs**: Issues on GitHub.
