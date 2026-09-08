@@ -1,4 +1,6 @@
-[English](./README_EN.md) | Español
+<a href="https://opensource.org/licenses/Apache-2.0"><img align="left" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0"></a>
+<a href="https://discord.gg/g8nqB3NtXt"><img align="left" src="https://img.shields.io/badge/Discord-SyntropyOS-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
+<div align="right"><a href="./README_EN.md">English</a> | Español</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="org-syntropy.gif">
@@ -8,9 +10,6 @@
 <p align="center"><strong>Orden desde el caos para la era de los agentes de IA.</strong></p>
 
 <p align="center"><em>Infraestructura que transforma el caos de los LLMs en sistemas coherentes.</em></p>
-
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Discord](https://img.shields.io/badge/Discord-SyntropyOS-5865F2?logo=discord&logoColor=white)](https://discord.gg/g8nqB3NtXt)
 
 ---
 
