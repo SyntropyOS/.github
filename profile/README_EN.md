@@ -5,11 +5,9 @@
   <img src="org-syntropy-light.gif" alt="Syntropy wordmark animating into place" width="960">
 </picture>
 
-# SyntropyOS
+<p align="center"><strong>Order out of chaos for the age of AI agents.</strong></p>
 
-> **Order out of chaos for the age of AI agents.**
-
-> *Infrastructure that turns LLM chaos into coherent systems.*
+<p align="center"><em>Infrastructure that turns LLM chaos into coherent systems.</em></p>
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Discord](https://img.shields.io/badge/Discord-SyntropyOS-5865F2?logo=discord&logoColor=white)](https://discord.gg/g8nqB3NtXt)

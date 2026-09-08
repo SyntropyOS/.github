@@ -5,11 +5,9 @@
   <img src="org-syntropy-light.gif" alt="Logotipo de Syntropy animándose hasta su posición" width="960">
 </picture>
 
-# SyntropyOS
+<p align="center"><strong>Orden desde el caos para la era de los agentes de IA.</strong></p>
 
-> **Orden desde el caos para la era de los agentes de IA.**
-
-> *Infraestructura que transforma el caos de los LLMs en sistemas coherentes.*
+<p align="center"><em>Infraestructura que transforma el caos de los LLMs en sistemas coherentes.</em></p>
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Discord](https://img.shields.io/badge/Discord-SyntropyOS-5865F2?logo=discord&logoColor=white)](https://discord.gg/g8nqB3NtXt)
