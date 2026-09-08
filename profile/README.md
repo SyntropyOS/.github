@@ -1,6 +1,6 @@
 <a href="https://discord.gg/g8nqB3NtXt"><img align="right" src="https://img.shields.io/badge/Syntropy-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="SYNTROPY on Discord"></a>
 <a href="https://opensource.org/licenses/Apache-2.0"><img align="right" src="https://img.shields.io/badge/Apache_2.0-181717?style=for-the-badge&logoColor=white" alt="Apache 2.0"></a>
-<div align="left"><a href="./README_ES.md">Español</a> | English</div>
+<div align="left">English | <a href="./README_ES.md">Español</a></div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="org-syntropy.gif">

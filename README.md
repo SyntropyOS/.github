@@ -8,7 +8,7 @@ Este es el repositorio `.github` de **SyntropyOS**: perfil público de la organi
 
 ## Perfil
 
-- 🇪🇸 [README del perfil (Español)](./profile/README.md) · [English](./profile/README_EN.md)
+- 🇬🇧 [Profile README (English)](./profile/README.md) · [Español](./profile/README_ES.md)
 
 ## Documentos
 
