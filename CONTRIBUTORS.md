@@ -1,3 +1,5 @@
+[English](./CONTRIBUTORS_EN.md) | Español
+
 # Contribuidores de SyntropyOS
 
 Gracias a todas las personas que contribuyen a SyntropyOS.

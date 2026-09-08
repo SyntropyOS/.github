@@ -1,3 +1,5 @@
+[English](./SECURITY_EN.md) | Español
+
 # Política de Seguridad
 
 ## Reportar Vulnerabilidades

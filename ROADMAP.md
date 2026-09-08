@@ -1,3 +1,5 @@
+[English](./ROADMAP_EN.md) | Español
+
 # Roadmap de SyntropyOS
 
 > **Estado actual**: Solo VantaDB (Memoria) está en producción. Los demás holones están en diseño.

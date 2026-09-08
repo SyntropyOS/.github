@@ -1,3 +1,5 @@
+[English](./CODE_OF_CONDUCT_EN.md) | Español
+
 # Código de Conducta
 
 SyntropyOS sigue el [Contributor Covenant 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).

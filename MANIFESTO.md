@@ -1,3 +1,5 @@
+[English](./MANIFESTO_EN.md) | Español
+
 # El Manifiesto Syntropy
 
 > "Orden desde el caos para la era de los agentes de IA."

@@ -1,3 +1,5 @@
+[English](./CONTRIBUTING_EN.md) | Español
+
 # Contribuir a SyntropyOS
 
 Gracias por tu interés en contribuir.
