@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="exports/avatar-ink.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Poppins:wght@500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "IBM Plex Mono", monospace; background: #F0EEE6; color: #141413; }
+  section { padding: 34px 40px; border-bottom: 1px solid #B0AEA5; }
+  .sec-tag { font-size: 12px; letter-spacing: .12em; opacity: .6; margin-bottom: 18px; }
+  .hero-lock { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 64px; letter-spacing: .14em; }
+  .hero-sub { font-family: "Instrument Serif", serif; font-size: 24px; margin-top: 10px; }
+  .oring { display: inline-block; width: .68em; height: .68em; border: .085em solid currentColor; border-radius: 50%; margin: 0 .02em; position: relative; transform: translateY(-.02em); }
+  .sdot { position: absolute; left: 50%; top: -.26em; width: .15em; height: .15em; margin-left: -.075em; border-radius: 50%; background: #4A6B53; }
+  .sdot-in { position: absolute; left: 50%; top: 50%; width: .2em; height: .2em; margin-left: -.1em; margin-top: -.1em; border-radius: 50%; background: #4A6B53; }
+  .dir { display: flex; align-items: center; justify-content: center; min-height: 250px; border: 1px solid #B0AEA5; margin-bottom: 14px; padding: 44px 10px; }
+  .paper { background: #F0EEE6; color: #141413; }
+  .ink { background: #141413; color: #FAF9F5; }
+  .d2 { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 88px; letter-spacing: 0.14em; text-indent: 0.14em; line-height: 1; display: inline-flex; align-items: center; }
+  .d2 .oring { width: .72em; height: .72em; border-width: .1em; margin: 0 .11em 0 -.03em; /* huecos simétricos: izq .14-.03=.11, der .11 */ }
+  .d3 { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 104px; letter-spacing: 0em; line-height: 1.2; }
+  .ol { position: relative; display: inline-block; line-height: 1; }
+  .ol .sdot2 { position: absolute; left: 50%; bottom: 100%; margin-bottom: -0.1em; width: 0.15em; height: 0.15em; margin-left: -0.075em; border-radius: 50%; background: #4A6B53; }
+  .ol .sdot-sm { position: absolute; left: 50%; top: 50%; width: .16em; height: .16em; margin-left: -.08em; margin-top: -.08em; border-radius: 50%; background: #4A6B53; }
+  .vc-fix { position: relative; display: inline; }
+  .vc-fix .sdot2 { position: absolute; left: 50%; bottom: 100%; margin-bottom: -0.06em; width: .11em; height: .11em; margin-left: -.055em; border-radius: 50%; background: #4A6B53; }
+  .vc-fix .sdot-in { position: absolute; left: 50%; top: 50%; width: .13em; height: .13em; margin-left: -.065em; margin-top: -.065em; border-radius: 50%; background: #4A6B53; }
+  .swatches { display: flex; gap: 12px; flex-wrap: wrap; }
+  .sw { width: 138px; }
+  .chip { height: 74px; border: 1px solid #B0AEA5; }
+  .sw p { font-size: 10.5px; margin-top: 7px; line-height: 1.6; }
+  .sw p b { display: block; font-weight: 500; }
+  .prop { display: flex; height: 26px; margin-top: 16px; max-width: 760px; border: 1px solid #B0AEA5; }
+  .trow { display: grid; grid-template-columns: 240px 1fr; gap: 18px; padding: 16px 0; border-bottom: 1px solid #B0AEA5; align-items: baseline; }
+  .trow .rl { font-size: 12px; letter-spacing: .1em; opacity: .6; }
+  .s-kick { font-family: "Poppins", sans-serif; font-weight: 600; font-size: 17px; letter-spacing: .28em; }
+  .s-head { font-family: "Instrument Serif", serif; font-size: 34px; }
+  .s-ui { font-family: "Poppins", sans-serif; font-weight: 500; font-size: 20px; }
+  .s-mono { font-size: 16px; letter-spacing: .06em; }
+  .s-body { font-family: "Newsreader", serif; font-size: 22px; line-height: 1.55; max-width: 660px; }
+  .avs { display: flex; gap: 30px; align-items: end; flex-wrap: wrap; }
+  .avc { text-align: center; font-size: 10px; letter-spacing: .1em; }
+  .rules { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 30px; font-size: 14px; line-height: 2; }
+  .rules b { font-weight: 500; }
+  .mock { border: 1px solid #B0AEA5; max-width: 900px; background: #F0EEE6; }
+  .mock-top { display: flex; gap: 18px; padding: 22px; align-items: center; }
+  .mock-av { width: 72px; height: 72px; border-radius: 50%; overflow: hidden; flex: none; background: #141413; color: #FAF9F5; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk'; font-weight: 700; font-size: 38px; }
+  .mock-name { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 22px; letter-spacing: .04em; }
+  .mock-bio { font-family: "Newsreader", serif; font-size: 16px; margin-top: 4px; opacity: .85; }
+  .mock-links { display: flex; gap: 10px; padding: 0 22px 22px 112px; }
+  .pill { font-family: "Poppins", sans-serif; font-size: 12px; font-weight: 500; border: 1px solid #B0AEA5; padding: 6px 12px; }
+  .mock-hero { border-top: 1px solid #B0AEA5; padding: 34px 22px; text-align: center; }
+  .mock-hero .lock { font-family: "Space Grotesk", sans-serif; font-weight: 700; font-size: 54px; letter-spacing: .14em; text-indent: .14em; display: inline-flex; align-items: center; }
+  .mock-hero .sub { font-family: "Instrument Serif", serif; font-size: 20px; margin-top: 10px; }
+  .mock-dark { background: #141413; color: #FAF9F5; }
+  .soc { display: flex; gap: 26px; align-items: center; }
+  .soc .cell { text-align: center; font-size: 10px; letter-spacing: .1em; }
+  .soc .av { border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: "Space Grotesk", sans-serif; font-weight: 700; margin: 0 auto 8px auto; }
+</style>
+</head>
+<body>
+  <section>
+    <div class="sec-tag">SYNTROPY AI / BRAND SHEET V3 / FONDO #F0EEE6 / CAPS JUNTAS</div>
+    <div class="hero-lock">SYNTR<span class="oring"><span class="sdot-in"></span></span>PY</div>
+    <div class="hero-sub">Order out of chaos for the age of agents.</div>
+    <div class="sec-tag" style="margin-top:14px">V3 · 2026-09-06 · LOCKUP V-A · AVATAR S INK/PAPER · TODO FUERA DEL REPO VANTADB</div>
+  </section>
+  <section>
+    <div class="sec-tag">B1 / LOGOTIPO — V-A FINAL</div>
+    <div class="dir paper"><div><div class="sec-tag">V-A / PUNTO DENTRO DEL ANILLO</div><span class="d2">SYNTR<span class="oring"><span class="sdot-in"></span></span>PY</span></div></div>
+    <div class="dir ink"><div><div class="sec-tag">V-A EN INK / PUNTO DENTRO</div><span class="d2" style="color:#FAF9F5">SYNTR<span class="oring"><span class="sdot-in"></span></span>PY</span></div></div>
+  </section>
+  <section>
+    <div class="sec-tag">B0 / CONCEPTO — POR QUÉ ESTA MARCA</div>
+    <div class="s-body" style="max-width:720px">Syntropy crea holones: todos en su ámbito, partes de un todo mayor. VantaDB (memoria local) es el primero. Del caos al orden: la marca converge (letras juntas, anillo perfecto, un solo punto) como la infraestructura que ordena.</div>
+  </section>
+  <section>
+    <div class="sec-tag">B1b / CONSTRUCCIÓN — ÁREA DE RESPETO, TAMAÑOS MÍNIMOS Y MONOCROMO</div>
+    <div class="dir paper"><div><div class="sec-tag">ÁREA DE RESPETO = ALTURA DE LA O EN LOS 4 LADOS</div><span style="display:inline-block;border:2px dashed #4A6B53;padding:44px 54px"><span class="d2" style="font-size:64px">SYNTR<span class="oring"><span class="sdot-in"></span></span>PY</span></span></div></div>
+    <div class="dir paper"><div style="text-align:center"><div class="sec-tag">TAMAÑOS MÍNIMOS — DIGITAL 120PX · IMPRESO 30MM</div><div><span class="d2" style="font-size:40px">SYNTR<span class="oring"><span class="sdot-in"></span></span>PY</span></div><div style="margin-top:18px"><span class="d2" style="font-size:22px">SYNTR<span class="oring"><span class="sdot-in"></span></span>PY</span></div></div></div>
+    <div class="dir paper"><div><div class="sec-tag">MONOCROMO 1 TINTA (FOTOCOPIA, GRABADO, FAX DEL FUTURO)</div><span class="d2" style="font-size:64px">SYNTR<span class="oring"></span>PY</span></div></div>
+    <div class="dir ink"><div><div class="sec-tag">MONOCROMO INVERSO</div><span class="d2" style="font-size:64px;color:#FAF9F5">SYNTR<span class="oring"></span>PY</span></div></div>
+  </section>
+  <section>
+    <div class="sec-tag">B2 / PALETA + PROPORCIÓN 60 / 30 / 10</div>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#F0EEE6"></div><p><b>Paper #F0EEE6</b>fondo 60</p></div>
+      <div class="sw"><div class="chip" style="background:#141413"></div><p><b>Ink #141413</b>texto 30</p></div>
+      <div class="sw"><div class="chip" style="background:#B0AEA5"></div><p><b>Mid #B0AEA5</b>secundario</p></div>
+      <div class="sw"><div class="chip" style="background:#E8E6DC"></div><p><b>Hairline #E8E6DC</b>bordes 1px</p></div>
+      <div class="sw"><div class="chip" style="background:#4A6B53"></div><p><b>Sage deep #4A6B53</b>acento 10</p></div>
+      <div class="sw"><div class="chip" style="background:#8AA184"></div><p><b>Sage claro #8AA184</b>alt sobre ink</p></div>
+      <div class="sw"><div class="chip" style="background:#6A9BCC"></div><p><b>Mineral #6A9BCC</b>alt info</p></div>
+      <div class="sw"><div class="chip" style="background:#3B5B73"></div><p><b>Slate #3B5B73</b>alt profundo</p></div>
+      <div class="sw"><div class="chip" style="background:#C29B47"></div><p><b>Ochre #C29B47</b>detalle premium</p></div>
+    </div>
+    <div class="prop"><div style="flex:60;background:#F0EEE6;border-right:1px solid #B0AEA5"></div><div style="flex:30;background:#141413"></div><div style="flex:10;background:#4A6B53"></div></div>
+  </section>
+  <section>
+    <div class="sec-tag">B3 / ESCALA MEDIDA EN ANTHROPIC.COM → NUESTRA TABLA</div>
+    <div class="trow"><div class="rl">DISPLAY / GROTESK 700 · 64PX</div><div style="font-family:'Space Grotesk';font-weight:700;font-size:40px;letter-spacing:.02em">Memory infrastructure</div></div>
+    <div class="trow"><div class="rl">FEATURE / SERIF 500 · 72PX</div><div style="font-family:'Instrument Serif';font-size:44px">Order out of chaos.</div></div>
+    <div class="trow"><div class="rl">SECCIÓN / SANS 600 · 24PX</div><div style="font-family:'Poppins';font-weight:600;font-size:24px">Start here</div></div>
+    <div class="trow"><div class="rl">CARD / SANS 600 · 24+16PX</div><div><div style="font-family:'Poppins';font-weight:600;font-size:24px">Holons</div><div style="font-family:'Poppins';font-weight:600;font-size:16px;margin-top:4px">Wholes and parts</div></div></div>
+    <div class="trow"><div class="rl">BODY L/S / SERIF 400 · 24+18PX</div><div><div class="s-body">Syntropy builds holons: wholes in their own scope, parts of a larger whole.</div><div class="s-body" style="font-size:18px;margin-top:6px">VantaDB is the first of them.</div></div></div>
+    <div class="trow"><div class="rl">VOZ TÉCNICA (EJ.)</div><div class="s-ui" style="font-weight:400">Stateless models, stateful infrastructure.</div></div>
+    <div class="trow"><div class="rl">VOZ EDITORIAL (EJ.)</div><div class="s-body">An LLM without good infrastructure is chaos. We build the order around it.</div></div>
+    <div class="trow"><div class="rl">UI / SANS 500 · 16-20PX</div><div class="s-ui">Docs · Benchmarks · Quickstart</div></div>
+    <div class="trow"><div class="rl">MICRO / MONO · 12PX</div><div class="s-mono">HOLON L0 → L3 / SINGLE-PLAY / 960×240</div></div>
+  </section>
+  <section>
+    <div class="sec-tag">B4 / AVATAR — MONOGRAMA S + FAVICON (REDONDOS COMO EN GITHUB)</div>
+    <div class="avs" style="display:flex;gap:26px;align-items:end;flex-wrap:wrap">
+      <div class="avc" style="text-align:center;font-size:10px;letter-spacing:.1em"><div style="width:104px;height:104px;font-size:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 8px auto;font-family:'Space Grotesk';font-weight:700;background:#141413;color:#FAF9F5">S</div>S INK ●</div>
+      <div class="avc" style="text-align:center;font-size:10px;letter-spacing:.1em"><div style="width:104px;height:104px;font-size:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 8px auto;font-family:'Space Grotesk';font-weight:700;background:#F0EEE6;color:#141413;border:1px solid #B0AEA5">S</div>S PAPER ●</div>
+      <div class="avc" style="text-align:center;font-size:10px;letter-spacing:.1em"><div style="width:32px;height:32px;font-size:17px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 8px auto;font-family:'Space Grotesk';font-weight:700;background:#F0EEE6;color:#141413;border:1px solid #B0AEA5">S</div>S 32 PAPER</div>
+      <div class="avc" style="text-align:center;font-size:10px;letter-spacing:.1em"><div style="width:32px;height:32px;font-size:17px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 8px auto;font-family:'Space Grotesk';font-weight:700;background:#141413;color:#FAF9F5">S</div>S 32PX</div>
+    </div>
+  </section>
+  <section>
+    <div class="sec-tag">B5 / REGLAS + VETOS</div>
+    <div class="rules">
+      <div><b>Sí:</b> flat 100% · hairlines 1px · padding amplio · un acento por pieza · caps solo wordmark/kickers · fondo #F0EEE6</div>
+      <div><b>No:</b> degradados · sombras · neón · terracota #D97757 · naranja VantaDB #FF5500 · estirar/recolorear · blanco puro como fondo</div>
+    </div>
+  </section>
+  <section>
+    <div class="sec-tag">B6 / REMOTION (LOCAL TEMPORAL, NUNCA EL DE VANTADB)</div>
+    <div class="s-body">Banner GIF dual-theme 960×240, single-play: letras suben una vez + lockup fijo sobre hairline/ink. Producir con captura de frames + ffmpeg en local temporal.</div>
+  </section>
+  <section>
+    <div class="sec-tag">B9 / ARCHIVOS Y VERSIONES</div>
+    <div class="s-mono">brand-sheet.html (este tablero) · syntropy-avatar-ink/paper.png (500px) · hero lockup PNG dual · proyecto Remotion en ./remotion (pendiente scaffold) · v3 2026-09-06</div>
+  </section>
+  <section>
+    <div class="sec-tag">B7 / EJEMPLOS — PERFIL ORG</div>
+    <div class="mock paper" style="border:1px solid #B0AEA5;max-width:900px;background:#F0EEE6">
+      <div class="mock-top">
+        <div class="mock-av" style="width:72px;height:72px;border-radius:50%;overflow:hidden;flex:none;background:#141413;color:#FAF9F5;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk';font-weight:700;font-size:38px">S</div>
+        <div><div class="mock-name">Syntropy AI</div><div class="mock-bio">Holonic memory infrastructure. Order out of chaos.</div></div>
+      </div>
+      <div class="mock-links"><span class="pill">Website</span><span class="pill">Docs</span><span class="pill">Discussions</span><span class="pill">Contact</span></div>
+      <div class="mock-hero" style="border-top:1px solid #B0AEA5;padding:34px 22px;text-align:center">
+        <span class="lock" style="font-family:'Space Grotesk';font-weight:700;font-size:54px;letter-spacing:.14em;text-indent:.14em;display:inline-flex;align-items:center">SYNTR<span class="oring"><span class="sdot"></span></span>PY</span>
+        <div class="sub" style="font-family:'Instrument Serif';font-size:20px;margin-top:10px">Wholes in their own scope, parts of a larger whole.</div>
+      </div>
+    </div>
+    <div class="sec-tag" style="margin-top:26px">B7b / PERFIL EN INK (TEMA OSCURO)</div>
+    <div class="mock ink" style="border:1px solid #B0AEA5;max-width:900px;background:#141413;color:#FAF9F5">
+      <div class="mock-top">
+        <div class="mock-av" style="width:72px;height:72px;border-radius:50%;overflow:hidden;flex:none;background:#FAF9F5;color:#141413;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk';font-weight:700;font-size:38px">S</div>
+        <div><div class="mock-name" style="color:#FAF9F5">Syntropy AI</div><div class="mock-bio" style="color:#FAF9F5">Holonic memory infrastructure. Order out of chaos.</div></div>
+      </div>
+      <div class="mock-hero" style="border-top:1px solid #B0AEA5;padding:34px 22px;text-align:center">
+        <span class="lock" style="font-family:'Space Grotesk';font-weight:700;font-size:54px;letter-spacing:.14em;text-indent:.14em;display:inline-flex;align-items:center;color:#FAF9F5">SYNTR<span class="oring"><span class="sdot"></span></span>PY</span>
+        <div class="sub" style="font-family:'Instrument Serif';font-size:20px;margin-top:10px;color:#FAF9F5">Wholes in their own scope, parts of a larger whole.</div>
+      </div>
+    </div>
+    <div class="sec-tag" style="margin-top:26px">B7c / FILA SOCIAL (AVATARES REDONDOS)</div>
+    <div class="soc" style="display:flex;gap:26px;align-items:center">
+      <div class="cell" style="text-align:center;font-size:10px;letter-spacing:.1em"><div class="av" style="width:72px;height:72px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk';font-weight:700;margin:0 auto 8px auto;font-size:36px;background:#141413;color:#FAF9F5">S</div>@SYNTROPYOS</div>
+      <div class="cell" style="text-align:center;font-size:10px;letter-spacing:.1em"><div class="av" style="width:72px;height:72px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk';font-weight:700;margin:0 auto 8px auto;font-size:36px;background:#F0EEE6;color:#141413;border:1px solid #B0AEA5">S</div>CLARO</div>
+    </div>
+    </div>
+  </section>
+</body>
+</html>

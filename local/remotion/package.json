@@ -1,0 +1,24 @@
+{
+  "name": "syntropy-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion compositions for Syntropy AI brand assets (org banner GIFs, PNG exports). Separate from VantaDB's project.",
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "render:banner": "remotion render SyntropyBanner out/syntropy-frames --sequence --image-format=png --every-nth-frame=2",
+    "render:banner-light": "remotion render SyntropyBannerLight out/syntropy-light-frames --sequence --image-format=png --every-nth-frame=2"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.506",
+    "@remotion/google-fonts": "4.0.506",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "4.0.506"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.2"
+  }
+}
