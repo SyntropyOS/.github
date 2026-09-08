@@ -42,8 +42,9 @@ Gracias por tu interés en contribuir.
 ## Contacto
 
 - **Email**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
-- **Discord**: [https://discord.gg/8rP8gxX5k](https://discord.gg/8rP8gxX5k)
+- **Discord**: [https://discord.gg/g8nqB3NtXt](https://discord.gg/g8nqB3NtXt)
 
 ---
 
 **SyntropyOS** — Orden desde el caos.
+

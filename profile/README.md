@@ -12,7 +12,7 @@
 > *Infraestructura que transforma el caos de los LLMs en sistemas coherentes.*
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Discord](https://img.shields.io/badge/Discord-SyntropyOS-5865F2?logo=discord&logoColor=white)](https://discord.gg/8rP8gxX5k)
+[![Discord](https://img.shields.io/badge/Discord-SyntropyOS-5865F2?logo=discord&logoColor=white)](https://discord.gg/g8nqB3NtXt)
 
 ---
 
@@ -27,6 +27,8 @@ Somos como POSIX para la era de los agentes de IA: no hacemos aplicaciones, hace
 ---
 
 ## Holones
+
+Cada capacidad es un **holón**: autónomo pero conectado — un todo en su ámbito y parte del ecosistema Syntropy al mismo tiempo.
 
 ### 🟢 En Producción
 
@@ -72,7 +74,7 @@ npm install vantadb
 ## Contribuir
 
 - **🐛 Reportar bugs**: Issues en GitHub.
-- **💬 Comunidad**: [Discord](https://discord.gg/8rP8gxX5k)
+- **💬 Comunidad**: [Discord](https://discord.gg/g8nqB3NtXt)
 - **📧 Contacto**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
 - **📖 Contribuir**: Ver [CONTRIBUTING.md](../CONTRIBUTING.md)
 
@@ -87,3 +89,4 @@ Código bajo licencia Apache 2.0 (uso personal y comercial permitido).
 ---
 
 **SyntropyOS** — Orden desde el caos.
+

@@ -1,34 +1,91 @@
-English | [Español](README_ES.md)
+[Español](./README.md) | English
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="org-syntropy.gif">
   <img src="org-syntropy-light.gif" alt="Syntropy wordmark animating into place" width="960">
 </picture>
 
-<p align="center"><strong>Order out of chaos for the age of agents.</strong></p>
+# SyntropyOS
 
-<p align="center"><a href="https://github.com/ness-e/Vantadb">Core engine</a> · <a href="https://github.com/SyntropyOS/.github/discussions">Discussions</a> · <a href="mailto:eros.messy@gmail.com">Contact</a></p>
+> **Order out of chaos for the age of AI agents.**
 
-Syntropy builds infrastructure around large language models. Models are stateless and brilliant; without a coherent layer around them, every agent rebuilds memory, retrieval, and plumbing from scratch. That duplication is chaos. Syntropy turns it into order.
+> *Infrastructure that turns LLM chaos into coherent systems.*
 
-## Mission, vision, philosophy
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Discord](https://img.shields.io/badge/Discord-SyntropyOS-5865F2?logo=discord&logoColor=white)](https://discord.gg/g8nqB3NtXt)
 
-- **Mission**: give every agent ecosystem the stable layer it needs: memory, retrieval, and tooling that persist beyond a single prompt
-- **Vision**: an age of agents where capability comes from the infrastructure around the model, not from a bigger model
-- **Philosophy**: build wholes, not fragments. Each piece owns its scope completely and plugs into a larger whole
+---
 
-## Why holons
+## What is SyntropyOS?
 
-A [holon](https://en.wikipedia.org/wiki/Holon_(philosophy)) is a system that is a whole in its own scope and part of a larger whole at the same time. Arthur Koestler coined the term in 1967. We chose it because it describes exactly how we build: each project is complete and autonomous, yet designed from day one to compose into the Syntropy ecosystem.
+SyntropyOS builds **infrastructure for AI agents**.
+
+Large language models have raw intelligence but no structure. SyntropyOS creates the organization layers that turn that intelligence into coherent, predictable, useful systems.
+
+We are like POSIX for the age of AI agents: we don't make applications, we make the foundations others build applications on.
+
+---
 
 ## Holons
 
-| Holon | Objective | Technical | Link |
-|---|---|---|---|
-| **VantaDB** | Give agents durable local memory | Rust core with WAL persistence; BM25 plus HNSW fused by Reciprocal Rank Fusion; Python, TypeScript, and WASM bindings | [Core repo](https://github.com/ness-e/Vantadb) |
-| _next_ | _reserved_ | — | — |
+Each capability is a **holon**: autonomous yet connected — a whole in its own scope and part of the Syntropy ecosystem at the same time.
 
-## Get involved
+### 🟢 In Production
 
-- Ask questions and share use cases in [Discussions](https://github.com/SyntropyOS/.github/discussions)
-- Star the [core repo](https://github.com/ness-e/Vantadb) if it is useful to you
+| Holon | Description | Status |
+|-------|-------------|--------|
+| **Memory** | Governed persistence for agents | [VantaDB v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
+
+### 🔵 Next
+
+Upcoming holons in design. See [ROADMAP.md](../ROADMAP.md).
+
+---
+
+## Principles
+
+1. **Infrastructure, Not Products**: We build foundations, not applications.
+2. **Pragmatism over Purity**: Local-first when it makes sense, cloud when needed.
+3. **Strategic Openness**: Open source with commercial licenses for sustainability.
+4. **Coherence over Complexity**: Simple APIs, predictable behavior.
+5. **Evolution, Not Revolution**: Compatibility, gradual deprecation, documented migrations.
+6. **Radical Transparency**: Real status, documented decisions, visible roadmap.
+
+📖 **Full manifesto**: [MANIFESTO.md](../MANIFESTO.md)
+
+---
+
+## Getting started
+
+### VantaDB (Memory)
+
+```bash
+# Python
+pip install vantadb-py
+
+# TypeScript
+npm install vantadb
+```
+
+📖 **Documentation**: [VantaDB Docs](https://github.com/ness-e/Vantadb/tree/main/docs)
+
+---
+
+## Contribute
+
+- **🐛 Report bugs**: Issues on GitHub.
+- **💬 Community**: [Discord](https://discord.gg/g8nqB3NtXt)
+- **📧 Contact**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
+- **📖 Contribute**: See [CONTRIBUTING.md](../CONTRIBUTING.md)
+
+---
+
+## License
+
+Code under Apache 2.0 (personal and commercial use allowed).
+
+📖 **Details**: [LICENSE](../LICENSE)
+
+---
+
+**SyntropyOS** — Order out of chaos.

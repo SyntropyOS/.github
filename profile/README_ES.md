@@ -1,34 +1,91 @@
-[English](README.md) | Español
+[English](./README_EN.md) | Español
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="org-syntropy.gif">
   <img src="org-syntropy-light.gif" alt="Logotipo de Syntropy animándose hasta su posición" width="960">
 </picture>
 
-<p align="center"><strong>Orden desde el caos para la era de los agentes.</strong></p>
+# SyntropyOS
 
-<p align="center"><a href="https://github.com/ness-e/Vantadb">Motor core</a> · <a href="https://github.com/SyntropyOS/.github/discussions">Discusiones</a> · <a href="mailto:eros.messy@gmail.com">Contacto</a></p>
+> **Orden desde el caos para la era de los agentes de IA.**
 
-Syntropy construye infraestructura alrededor de los grandes modelos de lenguaje. Los modelos son brillantes y sin estado; sin una capa coherente que los rodee, cada agente reconstruye memoria, recuperación y plomería desde cero. Esa duplicación es caos. Syntropy la convierte en orden.
+> *Infraestructura que transforma el caos de los LLMs en sistemas coherentes.*
 
-## Misión, visión, filosofía
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Discord](https://img.shields.io/badge/Discord-SyntropyOS-5865F2?logo=discord&logoColor=white)](https://discord.gg/g8nqB3NtXt)
 
-- **Misión**: dar a cada ecosistema de agentes la capa estable que necesita: memoria, recuperación y herramientas que persisten más allá de un solo prompt
-- **Visión**: una era de agentes donde la capacidad viene de la infraestructura alrededor del modelo, no de un modelo más grande
-- **Filosofía**: construir todos, no fragmentos. Cada pieza domina su ámbito por completo y se integra a un todo mayor
+---
 
-## Por qué holones
+## ¿Qué es SyntropyOS?
 
-Un [holón](https://en.wikipedia.org/wiki/Holon_(philosophy)) es un sistema que es un todo en su propio ámbito y parte de un todo mayor al mismo tiempo. Arthur Koestler acuñó el término en 1967. Lo elegimos porque describe exactamente cómo construimos: cada proyecto es completo y autónomo, pero diseñado desde el primer día para componer el ecosistema Syntropy.
+SyntropyOS construye **infraestructura para agentes de IA**.
+
+Los grandes modelos de lenguaje tienen inteligencia bruta, pero no tienen estructura. SyntropyOS crea las capas de organización que transforman esa inteligencia en sistemas coherentes, predecibles y útiles.
+
+Somos como POSIX para la era de los agentes de IA: no hacemos aplicaciones, hacemos los fundamentos sobre los cuales otros construyen aplicaciones.
+
+---
 
 ## Holones
 
-| Holón | Objetivo | Técnica | Enlace |
-|---|---|---|---|
-| **VantaDB** | Dar a los agentes memoria local durable | Core Rust con persistencia WAL; BM25 más HNSW fusionados por Reciprocal Rank Fusion; bindings Python, TypeScript y WASM | [Repo core](https://github.com/ness-e/Vantadb) |
-| _siguiente_ | _reservado_ | — | — |
+Cada capacidad es un **holón**: autónomo pero conectado — un todo en su ámbito y parte del ecosistema Syntropy al mismo tiempo.
 
-## Participa
+### 🟢 En Producción
 
-- Pregunta y comparte casos de uso en [Discusiones](https://github.com/SyntropyOS/.github/discussions)
-- Marca con estrella el [repo core](https://github.com/ness-e/Vantadb) si te resulta útil
+| Holón | Descripción | Estado |
+|-------|-------------|--------|
+| **Memoria** | Persistencia gobernada para agentes | [VantaDB v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
+
+### 🔵 Próximos
+
+Próximos holones en diseño. Ver [ROADMAP.md](../ROADMAP.md).
+
+---
+
+## Principios
+
+1. **Infraestructura, No Productos**: Construimos fundamentos, no aplicaciones.
+2. **Pragmatismo sobre Pureza**: Local-first cuando tiene sentido, cloud cuando es necesario.
+3. **Apertura Estratégica**: Open-source con licencias comerciales para sostenibilidad.
+4. **Coherencia sobre Complejidad**: APIs simples, comportamiento predecible.
+5. **Evolución, No Revolución**: Compatibilidad, deprecación gradual, migraciones documentadas.
+6. **Transparencia Radical**: Estado real, decisiones documentadas, roadmap visible.
+
+📖 **Manifiesto completo**: [MANIFESTO.md](../MANIFESTO.md)
+
+---
+
+## Empezar
+
+### VantaDB (Memoria)
+
+```bash
+# Python
+pip install vantadb-py
+
+# TypeScript
+npm install vantadb
+```
+
+📖 **Documentación**: [VantaDB Docs](https://github.com/ness-e/Vantadb/tree/main/docs)
+
+---
+
+## Contribuir
+
+- **🐛 Reportar bugs**: Issues en GitHub.
+- **💬 Comunidad**: [Discord](https://discord.gg/g8nqB3NtXt)
+- **📧 Contacto**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
+- **📖 Contribuir**: Ver [CONTRIBUTING.md](../CONTRIBUTING.md)
+
+---
+
+## Licencia
+
+Código bajo licencia Apache 2.0 (uso personal y comercial permitido).
+
+📖 **Detalles**: [LICENSE](../LICENSE)
+
+---
+
+**SyntropyOS** — Orden desde el caos.

@@ -78,10 +78,11 @@ Si construyes con LLMs y necesitas orden sobre la inteligencia bruta:
 - **Propón**: Sugiere lo que falta.
 - **Comercializa**: Licencia para uso enterprise.
 
-**Contacto**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com) | [Discord](https://discord.gg/8rP8gxX5k)
+**Contacto**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com) | [Discord](https://discord.gg/g8nqB3NtXt)
 
 Construyamos infraestructura para la era de los agentes.
 
 ---
 
 **SyntropyOS** — Orden desde el caos.
+
