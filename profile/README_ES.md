@@ -41,6 +41,11 @@ Cada capacidad es un **holón**: autónomo pero conectado — un todo en su ámb
 | **Reverb** (Audio) | 🔵 Próximamente |
 | **Cardinal** (Orientación) | 🔵 Próximamente |
 | **Orchestra** (Coordinación) | 🔵 Próximamente |
+| **Sage** (Aprendizaje) | 🔵 Próximamente |
+| **Execute** (Ejecución) | 🔵 Próximamente |
+| **Plan** (Planificación) | 🔵 Próximamente |
+| **Reason** (Razonamiento) | 🔵 Próximamente |
+| **Meta** (Metacognición) | 🔵 Próximamente |
 
 Ver [ROADMAP.md](../ROADMAP_ES.md).
 

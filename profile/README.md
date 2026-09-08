@@ -41,6 +41,11 @@ Each capability is a **holon**: autonomous yet connected — a whole in its own 
 | **Reverb** (Audio) | 🔵 Coming soon |
 | **Cardinal** (Orientation) | 🔵 Coming soon |
 | **Orchestra** (Coordination) | 🔵 Coming soon |
+| **Sage** (Learning) | 🔵 Coming soon |
+| **Execute** (Execution) | 🔵 Coming soon |
+| **Plan** (Planning) | 🔵 Coming soon |
+| **Reason** (Reasoning) | 🔵 Coming soon |
+| **Meta** (Metacognition) | 🔵 Coming soon |
 
 See [ROADMAP.md](../ROADMAP.md).
 
