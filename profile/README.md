@@ -33,9 +33,16 @@ Each capability is a **holon**: autonomous yet connected — a whole in its own 
 |-------|-------------|--------|
 | **Memory** | Governed persistence for agents | [VantaDB v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
 
-### 🔵 Next
+### 🔵 Coming next
 
-Upcoming holons in design. See [ROADMAP.md](../ROADMAP.md).
+| Holon | Status |
+|-------|--------|
+| **Iris** (Vision) | 🔵 Coming soon |
+| **Reverb** (Audio) | 🔵 Coming soon |
+| **Cardinal** (Orientation) | 🔵 Coming soon |
+| **Orchestra** (Coordination) | 🔵 Coming soon |
+
+See [ROADMAP.md](../ROADMAP.md).
 
 ---
 

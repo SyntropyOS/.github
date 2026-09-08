@@ -35,7 +35,14 @@ Cada capacidad es un **holón**: autónomo pero conectado — un todo en su ámb
 
 ### 🔵 Próximos
 
-Próximos holones en diseño. Ver [ROADMAP.md](../ROADMAP_ES.md).
+| Holón | Estado |
+|-------|--------|
+| **Iris** (Visión) | 🔵 Próximamente |
+| **Reverb** (Audio) | 🔵 Próximamente |
+| **Cardinal** (Orientación) | 🔵 Próximamente |
+| **Orchestra** (Coordinación) | 🔵 Próximamente |
+
+Ver [ROADMAP.md](../ROADMAP_ES.md).
 
 ---
 
