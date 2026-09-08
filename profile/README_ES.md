@@ -86,3 +86,4 @@ Código bajo licencia Apache 2.0 (uso personal y comercial permitido).
 ---
 
 **SyntropyOS** — Orden desde el caos.
+

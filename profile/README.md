@@ -1,60 +1,60 @@
 <a href="https://discord.gg/g8nqB3NtXt"><img align="right" src="https://img.shields.io/badge/Syntropy-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="SYNTROPY on Discord"></a>
 <a href="https://opensource.org/licenses/Apache-2.0"><img align="right" src="https://img.shields.io/badge/Apache_2.0-181717?style=for-the-badge&logoColor=white" alt="Apache 2.0"></a>
-<div align="left"><a href="./README_EN.md">English</a> | Español</div>
+<div align="left"><a href="./README_ES.md">Español</a> | English</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="org-syntropy.gif">
   <img src="org-syntropy-light.gif" alt="Syntropy wordmark animating into place" width="960">
 </picture>
 
-<p align="center"><strong>Orden desde el caos para la era de los agentes de IA.</strong></p>
+<p align="center"><strong>Order out of chaos for the age of AI agents.</strong></p>
 
-<p align="center"><em>Infraestructura que transforma el caos de los LLMs en sistemas coherentes.</em></p>
-
----
-
-## ¿Qué es SyntropyOS?
-
-SyntropyOS construye **infraestructura para agentes de IA**.
-
-Los grandes modelos de lenguaje tienen inteligencia bruta, pero no tienen estructura. SyntropyOS crea las capas de organización que transforman esa inteligencia en sistemas coherentes, predecibles y útiles.
-
-Somos como POSIX para la era de los agentes de IA: no hacemos aplicaciones, hacemos los fundamentos sobre los cuales otros construyen aplicaciones.
+<p align="center"><em>Infrastructure that turns LLM chaos into coherent systems.</em></p>
 
 ---
 
-## Holones
+## What is SyntropyOS?
 
-Cada capacidad es un **holón**: autónomo pero conectado — un todo en su ámbito y parte del ecosistema Syntropy al mismo tiempo.
+SyntropyOS builds **infrastructure for AI agents**.
 
-### 🟢 En Producción
+Large language models have raw intelligence but no structure. SyntropyOS creates the organization layers that turn that intelligence into coherent, predictable, useful systems.
 
-| Holón | Descripción | Estado |
+We are like POSIX for the age of AI agents: we don't make applications, we make the foundations others build applications on.
+
+---
+
+## Holons
+
+Each capability is a **holon**: autonomous yet connected — a whole in its own scope and part of the Syntropy ecosystem at the same time.
+
+### 🟢 In Production
+
+| Holon | Description | Status |
 |-------|-------------|--------|
-| **Memoria** | Persistencia gobernada para agentes | [VantaDB v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
+| **Memory** | Governed persistence for agents | [VantaDB v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
 
-### 🔵 Próximos
+### 🔵 Next
 
-Próximos holones en diseño. Ver [ROADMAP.md](../ROADMAP.md).
-
----
-
-## Principios
-
-1. **Infraestructura, No Productos**: Construimos fundamentos, no aplicaciones.
-2. **Pragmatismo sobre Pureza**: Local-first cuando tiene sentido, cloud cuando es necesario.
-3. **Apertura Estratégica**: Open-source con licencias comerciales para sostenibilidad.
-4. **Coherencia sobre Complejidad**: APIs simples, comportamiento predecible.
-5. **Evolución, No Revolución**: Compatibilidad, deprecación gradual, migraciones documentadas.
-6. **Transparencia Radical**: Estado real, decisiones documentadas, roadmap visible.
-
-📖 **Manifiesto completo**: [MANIFESTO.md](../MANIFESTO.md)
+Upcoming holons in design. See [ROADMAP.md](../ROADMAP_EN.md).
 
 ---
 
-## Empezar
+## Principles
 
-### VantaDB (Memoria)
+1. **Infrastructure, Not Products**: We build foundations, not applications.
+2. **Pragmatism over Purity**: Local-first when it makes sense, cloud when needed.
+3. **Strategic Openness**: Open source with commercial licenses for sustainability.
+4. **Coherence over Complexity**: Simple APIs, predictable behavior.
+5. **Evolution, Not Revolution**: Compatibility, gradual deprecation, documented migrations.
+6. **Radical Transparency**: Real status, documented decisions, visible roadmap.
+
+📖 **Full manifesto**: [MANIFESTO.md](../MANIFESTO_EN.md)
+
+---
+
+## Getting started
+
+### VantaDB (Memory)
 
 ```bash
 # Python
@@ -64,26 +64,26 @@ pip install vantadb-py
 npm install vantadb
 ```
 
-📖 **Documentación**: [VantaDB Docs](https://github.com/ness-e/Vantadb/tree/main/docs)
+📖 **Documentation**: [VantaDB Docs](https://github.com/ness-e/Vantadb/tree/main/docs)
 
 ---
 
-## Contribuir
+## Contribute
 
-- **🐛 Reportar bugs**: Issues en GitHub.
-- **💬 Comunidad**: [Discord](https://discord.gg/g8nqB3NtXt)
-- **📧 Contacto**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
-- **📖 Contribuir**: Ver [CONTRIBUTING.md](../CONTRIBUTING.md)
-
----
-
-## Licencia
-
-Código bajo licencia Apache 2.0 (uso personal y comercial permitido).
-
-📖 **Detalles**: [LICENSE](../LICENSE)
+- **🐛 Report bugs**: Issues on GitHub.
+- **💬 Community**: [Discord](https://discord.gg/g8nqB3NtXt)
+- **📧 Contact**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
+- **📖 Contribute**: See [CONTRIBUTING.md](../CONTRIBUTING_EN.md)
 
 ---
 
-**SyntropyOS** — Orden desde el caos.
+## License
+
+Code under Apache 2.0 (personal and commercial use allowed).
+
+📖 **Details**: [LICENSE](../LICENSE)
+
+---
+
+**SyntropyOS** — Order out of chaos.
 
