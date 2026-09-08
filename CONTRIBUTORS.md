@@ -1,17 +1,18 @@
-[English](./CONTRIBUTORS_EN.md) | Español
+[Español](./CONTRIBUTORS_ES.md) | English
 
-# Contribuidores de SyntropyOS
+# SyntropyOS Contributors
 
-Gracias a todas las personas que contribuyen a SyntropyOS.
+Thanks to everyone who contributes to SyntropyOS.
 
 ## Core Team
 
 - [ness-e](https://github.com/ness-e)
 
-## Contribuidores
+## Contributors
 
-*(Se agregará aquí cuando haya contribuidores externos.)*
+*(To be added here when external contributors arrive.)*
 
 ---
 
-**SyntropyOS** — Orden desde el caos.
+**SyntropyOS** — Order out of chaos.
+

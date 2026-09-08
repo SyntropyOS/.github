@@ -1,90 +1,90 @@
-[English](./MANIFESTO_EN.md) | Español
+[Español](./MANIFESTO_ES.md) | English
 
-# El Manifiesto Syntropy
+# The Syntropy Manifesto
 
-> "Orden desde el caos para la era de los agentes de IA."
-
----
-
-## Creemos
-
-1. **Que la inteligencia bruta necesita organización**
-   - Los LLMs tienen capacidades extraordinarias.
-   - Sin infraestructura, esas capacidades son impredecibles.
-   - La organización transforma caos en sistemas coherentes.
-
-2. **Que la infraestructura es más valiosa que las aplicaciones**
-   - Las aplicaciones vienen y van.
-   - La infraestructura perdura.
-   - Construimos fundamentos, no features.
-
-3. **Que el pragmatismo supera a la pureza**
-   - Local-first cuando tiene sentido.
-   - Cloud cuando es necesario.
-   - Híbrido cuando es óptimo.
-
-4. **Que la apertura estratégica es sostenible**
-   - Open-source con licencias comerciales para sostenibilidad.
-   - Protocolos abiertos para interoperabilidad.
-   - Comunidad activa de contribuyentes.
-
-5. **Que la coherencia es más importante que la complejidad**
-   - APIs simples.
-   - Comportamiento predecible.
-   - Fallos explicables.
-
-6. **Que la transparencia construye confianza**
-   - Estado real, no marketing.
-   - Decisiones documentadas, no arbitrarias.
-   - Roadmap visible, no secreto.
+> "Order out of chaos for the age of AI agents."
 
 ---
 
-## Nos Comprometemos
+## We believe
 
-### Con la Calidad
+1. **That raw intelligence needs organization**
+   - LLMs have extraordinary capabilities.
+   - Without infrastructure, those capabilities are unpredictable.
+   - Organization turns chaos into coherent systems.
 
-- Código bien probado, no features a medias.
-- Documentación completa, no promesas vagas.
-- Estabilidad, no hype.
+2. **That infrastructure is more valuable than applications**
+   - Applications come and go.
+   - Infrastructure endures.
+   - We build foundations, not features.
 
-### Con los Usuarios
+3. **That pragmatism beats purity**
+   - Local-first when it makes sense.
+   - Cloud when needed.
+   - Hybrid when optimal.
 
-- APIs que no se rompen sin aviso.
-- Migraciones documentadas, no breaking changes sorpresa.
-- Soporte accesible, no tickets ignorados.
+4. **That strategic openness is sustainable**
+   - Open source with commercial licenses for sustainability.
+   - Open protocols for interoperability.
+   - Active contributor community.
 
-### Con la Comunidad
+5. **That coherence matters more than complexity**
+   - Simple APIs.
+   - Predictable behavior.
+   - Explainable failures.
 
-- Contribuciones externas bienvenidas y reconocidas.
-- Issues respondidos en tiempo razonable.
-- Decisiones arquitectónicas discutidas públicamente (ADRs).
-
----
-
-## Lo que No Somos
-
-- **No somos una startup de IA**: No entrenamos modelos.
-- **No somos un framework de agentes**: No hacemos LangChain.
-- **No somos una plataforma cloud**: No vendemos APIs.
-- **No somos open-source purista**: Somos pragmáticos.
-
----
-
-## Invitación
-
-Si construyes con LLMs y necesitas orden sobre la inteligencia bruta:
-
-- **Usa**: Prueba nuestras herramientas.
-- **Contribuye**: Mejora lo que usas.
-- **Propón**: Sugiere lo que falta.
-- **Comercializa**: Licencia para uso enterprise.
-
-**Contacto**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com) | [Discord](https://discord.gg/g8nqB3NtXt)
-
-Construyamos infraestructura para la era de los agentes.
+6. **That transparency builds trust**
+   - Real status, not marketing.
+   - Documented decisions, not arbitrary ones.
+   - Visible roadmap, not secret.
 
 ---
 
-**SyntropyOS** — Orden desde el caos.
+## Our commitments
+
+### To Quality
+
+- Well-tested code, not half-baked features.
+- Complete documentation, not vague promises.
+- Stability, not hype.
+
+### To Users
+
+- APIs that don't break without warning.
+- Documented migrations, not surprise breaking changes.
+- Accessible support, not ignored tickets.
+
+### To the Community
+
+- External contributions welcomed and recognized.
+- Issues answered in reasonable time.
+- Architectural decisions discussed publicly (ADRs).
+
+---
+
+## What we are not
+
+- **Not an AI startup**: We don't train models.
+- **Not an agent framework**: We don't do LangChain.
+- **Not a cloud platform**: We don't sell APIs.
+- **Not open-source purists**: We are pragmatic.
+
+---
+
+## Invitation
+
+If you build with LLMs and need order over raw intelligence:
+
+- **Use**: Try our tools.
+- **Contribute**: Improve what you use.
+- **Propose**: Suggest what's missing.
+- **License**: Commercial licensing for enterprise use.
+
+**Contact**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com) | [Discord](https://discord.gg/g8nqB3NtXt)
+
+Let's build infrastructure for the age of agents.
+
+---
+
+**SyntropyOS** — Order out of chaos.
 

@@ -35,7 +35,7 @@ Cada capacidad es un **holón**: autónomo pero conectado — un todo en su ámb
 
 ### 🔵 Próximos
 
-Próximos holones en diseño. Ver [ROADMAP.md](../ROADMAP.md).
+Próximos holones en diseño. Ver [ROADMAP.md](../ROADMAP_ES.md).
 
 ---
 
@@ -48,7 +48,7 @@ Próximos holones en diseño. Ver [ROADMAP.md](../ROADMAP.md).
 5. **Evolución, No Revolución**: Compatibilidad, deprecación gradual, migraciones documentadas.
 6. **Transparencia Radical**: Estado real, decisiones documentadas, roadmap visible.
 
-📖 **Manifiesto completo**: [MANIFESTO.md](../MANIFESTO.md)
+📖 **Manifiesto completo**: [MANIFESTO.md](../MANIFESTO_ES.md)
 
 ---
 
@@ -73,7 +73,7 @@ npm install vantadb
 - **🐛 Reportar bugs**: Issues en GitHub.
 - **💬 Comunidad**: [Discord](https://discord.gg/g8nqB3NtXt)
 - **📧 Contacto**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
-- **📖 Contribuir**: Ver [CONTRIBUTING.md](../CONTRIBUTING.md)
+- **📖 Contribuir**: Ver [CONTRIBUTING.md](../CONTRIBUTING_ES.md)
 
 ---
 
@@ -86,4 +86,7 @@ Código bajo licencia Apache 2.0 (uso personal y comercial permitido).
 ---
 
 **SyntropyOS** — Orden desde el caos.
+
+
+
 

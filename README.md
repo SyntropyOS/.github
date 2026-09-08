@@ -14,9 +14,9 @@ Este es el repositorio `.github` de **SyntropyOS**: perfil público de la organi
 
 | Documento | Español | English |
 |---|---|---|
-| Manifiesto | [MANIFESTO.md](./MANIFESTO.md) | [MANIFESTO_EN.md](./MANIFESTO_EN.md) |
-| Roadmap | [ROADMAP.md](./ROADMAP.md) | [ROADMAP_EN.md](./ROADMAP_EN.md) |
-| Contribuir | [CONTRIBUTING.md](./CONTRIBUTING.md) | [CONTRIBUTING_EN.md](./CONTRIBUTING_EN.md) |
+| Manifiesto | [MANIFESTO_ES.md](./MANIFESTO_ES.md) | [MANIFESTO.md](./MANIFESTO.md) |
+| Roadmap | [ROADMAP_ES.md](./ROADMAP_ES.md) | [ROADMAP.md](./ROADMAP.md) |
+| Contribuir | [CONTRIBUTING_ES.md](./CONTRIBUTING_ES.md) | [CONTRIBUTING.md](./CONTRIBUTING.md) |
 | Contribuidores | [CONTRIBUTORS.md](./CONTRIBUTORS.md) | [CONTRIBUTORS_EN.md](./CONTRIBUTORS_EN.md) |
 | Conducta | [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) | [CODE_OF_CONDUCT_EN.md](./CODE_OF_CONDUCT_EN.md) |
 | Seguridad | [SECURITY.md](./SECURITY.md) | [SECURITY_EN.md](./SECURITY_EN.md) |
@@ -30,3 +30,6 @@ Este es el repositorio `.github` de **SyntropyOS**: perfil público de la organi
 ---
 
 **SyntropyOS** — Orden desde el caos.
+
+
+

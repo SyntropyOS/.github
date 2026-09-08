@@ -1,52 +1,52 @@
-[English](./CONTRIBUTING_EN.md) | Español
+[Español](./CONTRIBUTING_ES.md) | English
 
-# Contribuir a SyntropyOS
+# Contributing to SyntropyOS
 
-Gracias por tu interés en contribuir.
+Thanks for your interest in contributing.
 
-## Cómo Contribuir
+## How to Contribute
 
-### 1. Reportar Bugs
+### 1. Report Bugs
 
-- Abre un issue en el repo correspondiente.
-- Incluye: descripción, pasos para reproducir, comportamiento esperado vs. real.
+- Open an issue in the corresponding repo.
+- Include: description, steps to reproduce, expected vs. actual behavior.
 
-### 2. Contribuir Código
+### 2. Contribute Code
 
-- Haz un fork del repo.
-- Crea una rama: `git checkout -b feature/tu-feature`
-- Haz tus cambios y commits.
-- Abre un Pull Request.
+- Fork the repo.
+- Create a branch: `git checkout -b feature/your-feature`
+- Make your changes and commits.
+- Open a Pull Request.
 
-### 3. Escribir Documentación
+### 3. Write Documentation
 
-- Mejora docs existentes.
-- Agrega ejemplos.
-- Corrige errores.
+- Improve existing docs.
+- Add examples.
+- Fix errors.
 
-### 4. Ayudar a la Comunidad
+### 4. Help the Community
 
-- Responde issues.
-- Ayuda en Discord.
-- Comparte tu experiencia.
+- Answer issues.
+- Help on Discord.
+- Share your experience.
 
-## Estándares
+## Standards
 
-- **Código**: Sigue el estilo del proyecto (linter, formatter).
-- **Commits**: Mensajes descriptivos (ver [Conventional Commits](https://www.conventionalcommits.org/)).
-- **PRs**: Pequeños y enfocados (mejor 3 PRs de 100 líneas que 1 de 300).
+- **Code**: Follow the project style (linter, formatter).
+- **Commits**: Descriptive messages (see [Conventional Commits](https://www.conventionalcommits.org/)).
+- **PRs**: Small and focused (better 3 PRs of 100 lines than 1 of 300).
 
-## Reconocimiento
+## Recognition
 
-- Contribuidores aparecen en `CONTRIBUTORS.md` de cada repo.
-- Contribuciones significativas se mencionan en changelogs.
+- Contributors appear in `CONTRIBUTORS.md` of each repo.
+- Significant contributions are mentioned in changelogs.
 
-## Contacto
+## Contact
 
 - **Email**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
 - **Discord**: [https://discord.gg/g8nqB3NtXt](https://discord.gg/g8nqB3NtXt)
 
 ---
 
-**SyntropyOS** — Orden desde el caos.
+**SyntropyOS** — Order out of chaos.
 

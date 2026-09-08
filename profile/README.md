@@ -35,7 +35,7 @@ Each capability is a **holon**: autonomous yet connected — a whole in its own 
 
 ### 🔵 Next
 
-Upcoming holons in design. See [ROADMAP.md](../ROADMAP_EN.md).
+Upcoming holons in design. See [ROADMAP.md](../ROADMAP.md).
 
 ---
 
@@ -48,7 +48,7 @@ Upcoming holons in design. See [ROADMAP.md](../ROADMAP_EN.md).
 5. **Evolution, Not Revolution**: Compatibility, gradual deprecation, documented migrations.
 6. **Radical Transparency**: Real status, documented decisions, visible roadmap.
 
-📖 **Full manifesto**: [MANIFESTO.md](../MANIFESTO_EN.md)
+📖 **Full manifesto**: [MANIFESTO.md](../MANIFESTO.md)
 
 ---
 
@@ -73,7 +73,7 @@ npm install vantadb
 - **🐛 Report bugs**: Issues on GitHub.
 - **💬 Community**: [Discord](https://discord.gg/g8nqB3NtXt)
 - **📧 Contact**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
-- **📖 Contribute**: See [CONTRIBUTING.md](../CONTRIBUTING_EN.md)
+- **📖 Contribute**: See [CONTRIBUTING.md](../CONTRIBUTING.md)
 
 ---
 
@@ -86,4 +86,7 @@ Code under Apache 2.0 (personal and commercial use allowed).
 ---
 
 **SyntropyOS** — Order out of chaos.
+
+
+
 

@@ -1,19 +1,20 @@
-[English](./SECURITY_EN.md) | Español
+[Español](./SECURITY_ES.md) | English
 
-# Política de Seguridad
+# Security Policy
 
-## Reportar Vulnerabilidades
+## Reporting Vulnerabilities
 
-Si encuentras una vulnerabilidad de seguridad:
+If you find a security vulnerability:
 
-1. **No la reportes en issues públicos**.
-2. Escribe a: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
-3. Incluye: descripción, pasos para reproducir, impacto potencial.
+1. **Do not report it in public issues**.
+2. Email: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
+3. Include: description, steps to reproduce, potential impact.
 
-## Proceso
+## Process
 
-- Respondemos en tiempo razonable.
-- Trabajamos en un fix.
-- Publicamos advisory cuando está resuelto.
+- We respond in reasonable time.
+- We work on a fix.
+- We publish an advisory once resolved.
 
-Gracias por ayudar a mantener SyntropyOS seguro.
+Thanks for helping keep SyntropyOS safe.
+

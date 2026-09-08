@@ -1,13 +1,14 @@
-[English](./CODE_OF_CONDUCT_EN.md) | Español
+[Español](./CODE_OF_CONDUCT_ES.md) | English
 
-# Código de Conducta
+# Code of Conduct
 
-SyntropyOS sigue el [Contributor Covenant 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
+SyntropyOS follows the [Contributor Covenant 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
 
-En resumen:
+In short:
 
-- **Comportamiento esperado**: Respeto, inclusión, colaboración.
-- **Comportamiento inaceptable**: Acoso, discriminación, ataques personales.
-- **Reporte**: Abre un issue o escribe a [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
+- **Expected behavior**: Respect, inclusion, collaboration.
+- **Unacceptable behavior**: Harassment, discrimination, personal attacks.
+- **Reporting**: Open an issue or email [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
 
-📖 **Texto completo**: [Contributor Covenant 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+📖 **Full text**: [Contributor Covenant 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+
