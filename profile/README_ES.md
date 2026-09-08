@@ -27,25 +27,18 @@ Somos como POSIX para la era de los agentes de IA: no hacemos aplicaciones, hace
 
 Cada capacidad es un **holón**: autónomo pero conectado — un todo en su ámbito y parte del ecosistema Syntropy al mismo tiempo.
 
-### 🟢 En Producción
-
-| Holón | Descripción | Estado |
-|-------|-------------|--------|
-| **Memoria** | Persistencia gobernada para agentes | [VantaDB v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
-
-### 🔵 Próximos
-
-| Holón | Estado |
-|-------|--------|
-| **Iris** (Visión) | 🔵 Próximamente |
-| **Reverb** (Audio) | 🔵 Próximamente |
-| **Cardinal** (Orientación) | 🔵 Próximamente |
-| **Orchestra** (Coordinación) | 🔵 Próximamente |
-| **Sage** (Aprendizaje) | 🔵 Próximamente |
-| **Execute** (Ejecución) | 🔵 Próximamente |
-| **Plan** (Planificación) | 🔵 Próximamente |
-| **Reason** (Razonamiento) | 🔵 Próximamente |
-| **Meta** (Metacognición) | 🔵 Próximamente |
+| Holón | Función | Descripción | Estado |
+|-------|---------|-------------|--------|
+| **VantaDB** | Memoria | Persistencia gobernada y recuperación híbrida para agentes | [v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
+| **Iris** | Visión | Percepción visual: OCR, diagramas e interfaces | 🔵 Próximamente |
+| **Reverb** | Audio | Percepción auditiva: transcripción y clasificación | 🔵 Próximamente |
+| **Cardinal** | Orientación | Contexto espacio-temporal: dónde y cuándo | 🔵 Próximamente |
+| **Orchestra** | Coordinación | Orquestación y coordinación de holones | 🔵 Próximamente |
+| **Sage** | Aprendizaje | Adaptación y fine-tuning por dominio | 🔵 Próximamente |
+| **Execute** | Ejecución | Ejecución de acciones: tools y automatización | 🔵 Próximamente |
+| **Plan** | Planificación | Descomposición de tareas en pasos ejecutables | 🔵 Próximamente |
+| **Reason** | Razonamiento | Inferencia y razonamiento neuro-simbólico | 🔵 Próximamente |
+| **Meta** | Metacognición | Auto-evaluación y calibración de confianza | 🔵 Próximamente |
 
 Ver [ROADMAP.md](../ROADMAP_ES.md).
 

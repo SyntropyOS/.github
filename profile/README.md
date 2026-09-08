@@ -27,25 +27,18 @@ We are like POSIX for the age of AI agents: we don't make applications, we make 
 
 Each capability is a **holon**: autonomous yet connected — a whole in its own scope and part of the Syntropy ecosystem at the same time.
 
-### 🟢 In Production
-
-| Holon | Description | Status |
-|-------|-------------|--------|
-| **Memory** | Governed persistence for agents | [VantaDB v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
-
-### 🔵 Coming next
-
-| Holon | Status |
-|-------|--------|
-| **Iris** (Vision) | 🔵 Coming soon |
-| **Reverb** (Audio) | 🔵 Coming soon |
-| **Cardinal** (Orientation) | 🔵 Coming soon |
-| **Orchestra** (Coordination) | 🔵 Coming soon |
-| **Sage** (Learning) | 🔵 Coming soon |
-| **Execute** (Execution) | 🔵 Coming soon |
-| **Plan** (Planning) | 🔵 Coming soon |
-| **Reason** (Reasoning) | 🔵 Coming soon |
-| **Meta** (Metacognition) | 🔵 Coming soon |
+| Holon | Function | Description | Status |
+|-------|----------|-------------|--------|
+| **VantaDB** | Memory | Governed persistence and hybrid retrieval for agents | [v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
+| **Iris** | Vision | Visual perception: OCR, diagrams and interfaces | 🔵 Coming soon |
+| **Reverb** | Audio | Audio perception: transcription and classification | 🔵 Coming soon |
+| **Cardinal** | Orientation | Spatiotemporal context: where and when | 🔵 Coming soon |
+| **Orchestra** | Coordination | Orchestration and coordination of holons | 🔵 Coming soon |
+| **Sage** | Learning | Adaptation and fine-tuning per domain | 🔵 Coming soon |
+| **Execute** | Execution | Action execution: tools and automation | 🔵 Coming soon |
+| **Plan** | Planning | Task decomposition into executable steps | 🔵 Coming soon |
+| **Reason** | Reasoning | Neuro-symbolic inference and reasoning | 🔵 Coming soon |
+| **Meta** | Metacognition | Self-evaluation and confidence calibration | 🔵 Coming soon |
 
 See [ROADMAP.md](../ROADMAP.md).
 
