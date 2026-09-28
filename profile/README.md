@@ -9,7 +9,7 @@
 
 <p align="center"><strong>Order out of chaos for the age of AI agents.</strong></p>
 
-<p align="center"><em>Infrastructure that turns LLM chaos into coherent systems.</em></p>
+<p align="center"><em>Infrastructure that turns operational chaos into systems you can trust.</em></p>
 
 ---
 
@@ -21,24 +21,29 @@ Large language models have raw intelligence but no structure. SyntropyOS creates
 
 We are like POSIX for the age of AI agents: we don't make applications, we make the foundations others build applications on.
 
+The problem is not artificial intelligence. It is that no system survives operational reality: the power cuts, the person who configured it leaves, the source document is a PDF from 2019, and nobody knows where the data came from. So the test is not *what the system knows* but **whether you can trust it**. We build **verifiable, sovereign** infrastructure — not merely capable.
+
 ---
 
 ## Holons
 
 Each capability is a **holon**: autonomous yet connected — a whole in its own scope and part of the Syntropy ecosystem at the same time.
 
-| Holon | Function | Description | Status |
-|-------|----------|-------------|--------|
-| **VantaDB** | Memory | Governed persistence and hybrid retrieval for agents | [v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
-| **Iris** | Vision | Visual perception: OCR, diagrams and interfaces | 🔵 Coming soon |
-| **Reverb** | Audio | Audio perception: transcription and classification | 🔵 Coming soon |
-| **Cardinal** | Orientation | Spatiotemporal context: where and when | 🔵 Coming soon |
-| **Orchestra** | Coordination | Orchestration and coordination of holons | 🔵 Coming soon |
-| **Sage** | Learning | Adaptation and fine-tuning per domain | 🔵 Coming soon |
-| **Execute** | Execution | Action execution: tools and automation | 🔵 Coming soon |
-| **Plan** | Planning | Task decomposition into executable steps | 🔵 Coming soon |
-| **Reason** | Reasoning | Neuro-symbolic inference and reasoning | 🔵 Coming soon |
-| **Meta** | Metacognition | Self-evaluation and confidence calibration | 🔵 Coming soon |
+Each holon exists because it resolves a specific **chaos** that gets diagnosed in a real organization. A holon with no associated chaos does not get built.
+
+| Holon | Function | The chaos it resolves | Status |
+|-------|----------|----------------------|--------|
+| **VantaDB** | Memory | Substrate for all: ACID persistence and hybrid retrieval, local and sovereign | [v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
+| **Cardinal** | Orientation | **Context**: what we know, when we learned it, and from whom | In build · 1st |
+| **Iris** | Vision | **Perception**: what is an image or paper nobody can query | In build · 2nd |
+| **Meta** | Metacognition | **Trust**: evidence that the AI told the truth | In build · 3rd |
+| **Execute** | Execution | **Execution**: the automation breaks and nobody repairs it | Defined |
+| **Sage** | Learning | **Learning**: the system repeats what it was already corrected on | Defined |
+| **Plan** | Planning | Complementary: break work into verifiable steps | Defined |
+| **Orchestra** | Coordination | Runtime that makes the other holons cooperate | Defined · once 2+ exist |
+| **Reverb** · **Reason** | Audio · Reasoning | Out of initial scope | Deferred |
+
+**Defined** means the design and activation criteria are documented; it does not mean it ships. Only one holon is in production today.
 
 See [ROADMAP.md](../ROADMAP.md).
 
