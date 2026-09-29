@@ -34,14 +34,14 @@ Cada holón existe porque resuelve un **caos concreto** que se diagnostica en un
 | Holón | Función | El caos que resuelve | Estado |
 |-------|---------|----------------------|--------|
 | **VantaDB** | Memoria | Sustrato de todos: persistencia ACID y recuperación híbrida, local y soberana | [v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
-| **Cardinal** | Orientación | **Contexto**: qué sabemos, cuándo lo supimos y de quién | En construcción · 1º |
-| **Iris** | Visión | **Percepción**: lo que es imagen o papel y nadie puede consultar | En construcción · 2º |
-| **Meta** | Metacognición | **Confianza**: probar que la IA dijo la verdad, con evidencia | En construcción · 3º |
-| **Execute** | Ejecución | **Ejecución**: la automatización se rompe y nadie sabe repararla | Definido |
-| **Sage** | Aprendizaje | **Aprendizaje**: el sistema repite lo que ya se le corrigió | Definido |
-| **Plan** | Planificación | Complementario: descomponer el trabajo en pasos verificables | Definido |
-| **Orchestra** | Coordinación | Runtime que hace cooperar a los demás holones | Definido · cuando haya 2+ |
-| **Reverb** · **Reason** | Audio · Razonamiento | Fuera del alcance inicial | Aplazado |
+| [**Cardinal**](https://github.com/SyntropyOS/syntropy/tree/main/holons/cardinal) | Orientación | **Contexto**: qué sabemos, cuándo lo supimos y de quién | En construcción · 1º |
+| [**Iris**](https://github.com/SyntropyOS/syntropy/tree/main/holons/iris) | Visión | **Percepción**: lo que es imagen o papel y nadie puede consultar | En construcción · 2º |
+| [**Meta**](https://github.com/SyntropyOS/syntropy/tree/main/holons/meta) | Metacognición | **Confianza**: probar que la IA dijo la verdad, con evidencia | En construcción · 3º |
+| [**Execute**](https://github.com/SyntropyOS/syntropy/tree/main/holons/execute) | Ejecución | **Ejecución**: la automatización se rompe y nadie sabe repararla | Definido |
+| [**Sage**](https://github.com/SyntropyOS/syntropy/tree/main/holons/sage) | Aprendizaje | **Aprendizaje**: el sistema repite lo que ya se le corrigió | Definido |
+| [**Plan**](https://github.com/SyntropyOS/syntropy/tree/main/holons/plan) | Planificación | Complementario: descomponer el trabajo en pasos verificables | Definido |
+| [**Orchestra**](https://github.com/SyntropyOS/syntropy/tree/main/holons/orchestra) | Coordinación | Runtime que hace cooperar a los demás holones | Definido · cuando haya 2+ |
+| [**Reverb**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reverb) · [**Reason**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reason) | Audio · Razonamiento | Fuera del alcance inicial | Aplazado |
 
 **Definido** significa que tiene diseño documentado y criterio de activación; no significa que esté en producción. Solo un holón está en producción hoy.
 

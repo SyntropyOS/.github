@@ -34,14 +34,14 @@ Each holon exists because it resolves a specific **chaos** that gets diagnosed i
 | Holon | Function | The chaos it resolves | Status |
 |-------|----------|----------------------|--------|
 | **VantaDB** | Memory | Substrate for all: ACID persistence and hybrid retrieval, local and sovereign | [v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
-| **Cardinal** | Orientation | **Context**: what we know, when we learned it, and from whom | In build · 1st |
-| **Iris** | Vision | **Perception**: what is an image or paper nobody can query | In build · 2nd |
-| **Meta** | Metacognition | **Trust**: evidence that the AI told the truth | In build · 3rd |
-| **Execute** | Execution | **Execution**: the automation breaks and nobody repairs it | Defined |
-| **Sage** | Learning | **Learning**: the system repeats what it was already corrected on | Defined |
-| **Plan** | Planning | Complementary: break work into verifiable steps | Defined |
-| **Orchestra** | Coordination | Runtime that makes the other holons cooperate | Defined · once 2+ exist |
-| **Reverb** · **Reason** | Audio · Reasoning | Out of initial scope | Deferred |
+| [**Cardinal**](https://github.com/SyntropyOS/syntropy/tree/main/holons/cardinal) | Orientation | **Context**: what we know, when we learned it, and from whom | In build · 1st |
+| [**Iris**](https://github.com/SyntropyOS/syntropy/tree/main/holons/iris) | Vision | **Perception**: what is an image or paper nobody can query | In build · 2nd |
+| [**Meta**](https://github.com/SyntropyOS/syntropy/tree/main/holons/meta) | Metacognition | **Trust**: evidence that the AI told the truth | In build · 3rd |
+| [**Execute**](https://github.com/SyntropyOS/syntropy/tree/main/holons/execute) | Execution | **Execution**: the automation breaks and nobody repairs it | Defined |
+| [**Sage**](https://github.com/SyntropyOS/syntropy/tree/main/holons/sage) | Learning | **Learning**: the system repeats what it was already corrected on | Defined |
+| [**Plan**](https://github.com/SyntropyOS/syntropy/tree/main/holons/plan) | Planning | Complementary: break work into verifiable steps | Defined |
+| [**Orchestra**](https://github.com/SyntropyOS/syntropy/tree/main/holons/orchestra) | Coordination | Runtime that makes the other holons cooperate | Defined · once 2+ exist |
+| [**Reverb**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reverb) · [**Reason**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reason) | Audio · Reasoning | Out of initial scope | Deferred |
 
 **Defined** means the design and activation criteria are documented; it does not mean it ships. Only one holon is in production today.
 
