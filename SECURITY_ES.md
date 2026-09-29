@@ -13,8 +13,8 @@ Si encuentras una vulnerabilidad de seguridad:
 ## Proceso
 
 - Respondemos en tiempo razonable.
-- Trabajamos en un fix.
-- Publicamos advisory cuando está resuelto.
+- Trabajamos en una corrección.
+- Publicamos un aviso cuando está resuelto.
 
 Gracias por ayudar a mantener SyntropyOS seguro.
 
