@@ -17,18 +17,11 @@
 
 SyntropyOS builds **infrastructure for AI agents**.
 
-Large language models have raw intelligence but no structure. SyntropyOS creates the
-organization layers that turn that intelligence into coherent, predictable, useful
-systems.
+Large language models have raw intelligence but no structure. SyntropyOS creates the organization layers that turn that intelligence into coherent, predictable, useful systems.
 
-We are like POSIX for the age of AI agents: we don't make applications, we make the
-foundations others build applications on.
+We are like POSIX for the age of AI agents: we don't make applications, we make the foundations others build applications on.
 
-The problem is not artificial intelligence. It is that no system survives operational
-reality: the power cuts, the person who configured it leaves, the source document is a
-PDF from 2019, and nobody knows where the data came from. So the test is not *what the
-system knows* but **whether you can trust it**. We build **verifiable, sovereign**
-infrastructure — not merely capable.
+The problem is not artificial intelligence. It is that no system survives operational reality: the power cuts, the person who configured it leaves, the source document is a PDF from 2019, and nobody knows where the data came from. So the test is not *what the system knows* but **whether you can trust it**. We build **verifiable, sovereign** infrastructure — not merely capable.
 
 ---
 
@@ -41,9 +34,8 @@ infrastructure — not merely capable.
 | [`.github`](https://github.com/SyntropyOS/.github) | public | [Manifesto](https://github.com/SyntropyOS/.github/blob/main/MANIFESTO.md) · [Roadmap](https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md) · [Contributing](https://github.com/SyntropyOS/.github/blob/main/CONTRIBUTING.md) · Governance |
 | `strategy` | **private** | Business definition, market evidence, pricing, competitive analysis |
 
-Nine `syntropy-<holon>` repositories were **archived** on 28 September 2026 after their
-contents were merged into the `syntropy` monorepo with their history preserved. They stay
-readable and say where their content went.
+Three active repositories. One of them is private, and that is deliberate: mixing *what we
+believe* with *what we know about the market* degrades both.
 
 ---
 
@@ -70,9 +62,9 @@ organization. A holon with no associated chaos does not get built.
 **Defined** means the design and activation criteria are documented; it does not mean it
 ships. Only one holon is in production today.
 
-**Cardinal** is first because the others depend on it. **Meta** moved from ninth to third
-because it is the differentiator: the competition sells capability, this sells
-verifiability.
+**Cardinal** is first because the others depend on it: without verifiable context there
+is nothing to perceive and nothing to verify. **Meta** moved from ninth to third because
+it is the differentiator — the competition sells capability, this sells verifiability.
 
 ---
 
@@ -85,7 +77,7 @@ VantaDB  (substrate, in production)
    └─► 3. Meta       trust         ┘
    └─► 4. Execute    execution     requires prior trust
    └─► 5. Sage       learning      requires trustworthy context
-   └─► 6. Plan       decomposition
+   └─► 6. Plan       decomposition requires something to verify the steps against
           Orchestra   runtime       once two holons are alive
 ```
 

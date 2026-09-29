@@ -41,9 +41,8 @@ no es *qué sabe el sistema* sino **si puedes confiar en él**. Construimos infr
 | [`.github`](https://github.com/SyntropyOS/.github) | público | [Manifiesto](https://github.com/SyntropyOS/.github/blob/main/MANIFESTO_ES.md) · [Roadmap](https://github.com/SyntropyOS/.github/blob/main/ROADMAP_ES.md) · [Contribuir](https://github.com/SyntropyOS/.github/blob/main/CONTRIBUTING_ES.md) · Gobernanza |
 | `strategy` | **privado** | Definición de negocio, evidencia de mercado, precios, análisis competitivo |
 
-Nueve repositorios `syntropy-<holon>` quedaron **archivados** el 28 de septiembre de 2026
-tras integrar su contenido en el monorepo `syntropy` con su historial preservado. Siguen
-siendo legibles e indican a dónde fue su contenido.
+Tres repositorios activos. Uno es privado, y es deliberado: mezclar *lo que creemos* con
+*lo que sabemos del mercado* degrada ambas cosas.
 
 ---
 
@@ -70,9 +69,9 @@ organización real. Un holón sin caos asociado no se construye.
 **Definido** significa que el diseño y los criterios de activación están documentados; no
 significa que esté en producción. Hoy solo un holón está en producción.
 
-**Cardinal** va primero porque los demás dependen de él. **Meta** subió de novena a
-tercera porque es el diferenciador: la competencia vende capacidad, esto vende
-verificabilidad.
+**Cardinal** va primero porque los demás dependen de él: sin contexto verificable no hay
+nada que perceptionar ni que verificar. **Meta** subió de novena a tercera porque es el
+diferenciador — la competencia vende capacidad, esto vende verificabilidad.
 
 ---
 
@@ -85,7 +84,7 @@ VantaDB  (sustrato, en producción)
    └─► 3. Meta       confianza     ┘
    └─► 4. Execute    ejecución     requiere confianza previa
    └─► 5. Sage       aprendizaje   requiere contexto confiable
-   └─► 6. Plan       descomposición
+   └─► 6. Plan       descomposición requiere contra qué verificar los pasos
           Orchestra   runtime      cuando existan dos holones vivos
 ```
 
