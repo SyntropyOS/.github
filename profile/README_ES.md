@@ -61,7 +61,7 @@ organización real. Un holón sin caos asociado no se construye.
 | [**Iris**](https://github.com/SyntropyOS/syntropy/tree/main/holons/iris) | Visión | **Percepción**: lo que es imagen o papel y nadie puede consultar | En construcción · 2º |
 | [**Meta**](https://github.com/SyntropyOS/syntropy/tree/main/holons/meta) | Metacognición | **Confianza**: prueba de que la IA dijo la verdad | En construcción · 3º |
 | [**Execute**](https://github.com/SyntropyOS/syntropy/tree/main/holons/execute) | Ejecución | **Ejecución**: la automatización se rompe y nadie la repara | Definido |
-| [**Sage**](https://github.com/SyntropyOS/syntropy/tree/main/holons/sage) | Aprendizaje | **Aprendizaje**: el sistema repite lo que ya se le corrigió | Definido |
+| [**Sage**](https://github.com/SyntropyOS/syntropy/tree/main/holons/sage) | Adaptación | **Adaptación**: ni el sistema ni las personas se adaptan | Definido |
 | [**Plan**](https://github.com/SyntropyOS/syntropy/tree/main/holons/plan) | Planificación | **Descomposición**: nadie descompone el trabajo | Definido |
 | [**Orchestra**](https://github.com/SyntropyOS/syntropy/tree/main/holons/orchestra) | Coordinación | **Runtime**: sin él, los holones no saben cooperar | Definido · cuando existan 2+ |
 | [**Reverb**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reverb) · [**Reason**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reason) | Audio · Razonamiento | Fuera del alcance inicial | Aplazado |
@@ -83,7 +83,7 @@ VantaDB  (sustrato, en producción)
    └─► 2. Iris       percepción    ├─ sin Cardinal no hay nada que verificar
    └─► 3. Meta       confianza     ┘
    └─► 4. Execute    ejecución     requiere confianza previa
-   └─► 5. Sage       aprendizaje   requiere contexto confiable
+   └─► 5. Sage       adaptación    requiere contexto confiable e Iris
    └─► 6. Plan       descomposición requiere contra qué verificar los pasos
           Orchestra   runtime      cuando existan dos holones vivos
 ```

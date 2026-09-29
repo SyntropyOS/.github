@@ -54,7 +54,7 @@ organization. A holon with no associated chaos does not get built.
 | [**Iris**](https://github.com/SyntropyOS/syntropy/tree/main/holons/iris) | Vision | **Perception**: what is an image or paper nobody can query | In build · 2nd |
 | [**Meta**](https://github.com/SyntropyOS/syntropy/tree/main/holons/meta) | Metacognition | **Trust**: evidence that the AI told the truth | In build · 3rd |
 | [**Execute**](https://github.com/SyntropyOS/syntropy/tree/main/holons/execute) | Execution | **Execution**: the automation breaks and nobody repairs it | Defined |
-| [**Sage**](https://github.com/SyntropyOS/syntropy/tree/main/holons/sage) | Learning | **Learning**: the system repeats what it was already corrected on | Defined |
+| [**Sage**](https://github.com/SyntropyOS/syntropy/tree/main/holons/sage) | Adaptation | **Adaptation**: neither the system nor the people adapt | Defined |
 | [**Plan**](https://github.com/SyntropyOS/syntropy/tree/main/holons/plan) | Planning | **Decomposition**: nobody breaks the work down | Defined |
 | [**Orchestra**](https://github.com/SyntropyOS/syntropy/tree/main/holons/orchestra) | Coordination | **Runtime**: without it, the holons do not know how to cooperate | Defined · once 2+ exist |
 | [**Reverb**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reverb) · [**Reason**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reason) | Audio · Reasoning | Out of initial scope | Deferred |
@@ -76,7 +76,7 @@ VantaDB  (substrate, in production)
    └─► 2. Iris       perception    ├─ without Cardinal there is nothing to verify
    └─► 3. Meta       trust         ┘
    └─► 4. Execute    execution     requires prior trust
-   └─► 5. Sage       learning      requires trustworthy context
+   └─► 5. Sage       adaptation   requires trustworthy context and Iris
    └─► 6. Plan       decomposition requires something to verify the steps against
           Orchestra   runtime       once two holons are alive
 ```
