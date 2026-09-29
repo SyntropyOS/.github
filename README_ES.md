@@ -69,12 +69,11 @@ secundario en importancia.
 |---|---|---|
 | [`.github`](https://github.com/SyntropyOS/.github) | público | Este. Perfil de la organización y gobernanza |
 | [`syntropy`](https://github.com/SyntropyOS/syntropy) | público | **Los nueve holones**, un directorio cada uno. El sustrato |
-| [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) | público | El sustrato de memoria. Librería publicada, repo propio, v0.5.0 en producción |
+| [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) | público | El sustrato de memoria. Librería publicada, repo propio, v0.7.0 en producción |
 | `strategy` | **privado** | Definición maestra, evidencia de mercado, modelo de negocio, análisis competitivo |
 
-Nueve repositorios `syntropy-<holon>` quedaron **archivados** el 28 de septiembre de 2026
-tras integrar su contenido en el monorepo `syntropy`. Siguen siendo legibles e indican
-a dónde fue su contenido.
+Nueve repositorios `syntropy-<holon>` fueron **eliminados** el 29 de septiembre de 2026
+tras integrar su contenido en el monorepo `syntropy`. Su historial vive dentro del monorepo.
 
 El repositorio privado `strategy` contiene lo que el público no debe: precios, análisis
 competitivo, registro de riesgos y la evidencia de mercado con sus fuentes. Mezclar «esto

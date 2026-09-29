@@ -32,7 +32,7 @@ Gracias por tu interés en contribuir.
 
 ## Estándares
 
-- **Código**: Sigue el estilo del proyecto (linter, formatter).
+- **Código**: Sigue el estilo del proyecto (Conventional Commits, pares EN/ES). Sin linter/formatter/CI configurados aún.
 - **Commits**: Mensajes descriptivos (ver [Conventional Commits](https://www.conventionalcommits.org/)).
 - **PRs**: Pequeños y enfocados (mejor 3 PRs de 100 líneas que 1 de 300).
 
