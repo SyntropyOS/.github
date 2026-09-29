@@ -32,9 +32,10 @@ Thanks for your interest in contributing.
 
 ## Standards
 
-- **Code**: Follow the project style (linter, formatter).
+- **Code**: Follow the project style (Conventional Commits, Markdown pairs EN/ES). No linter/formatter/CI configured yet — do not assume tooling.
 - **Commits**: Descriptive messages (see [Conventional Commits](https://www.conventionalcommits.org/)).
-- **PRs**: Small and focused (better 3 PRs of 100 lines than 1 of 300).
+- **PRs**: Small and focused (better 3 PRs of 100 lines than 1 of 300). Practice today: direct commits to `main` by single author, no branch protection.
+- **ADRs/Changelogs**: Not maintained yet. Do not reference as existing.
 
 ## Recognition
 

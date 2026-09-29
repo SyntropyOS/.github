@@ -69,12 +69,11 @@ in importance.
 |---|---|---|
 | [`.github`](https://github.com/SyntropyOS/.github) | public | This one. Organization profile and governance |
 | [`syntropy`](https://github.com/SyntropyOS/syntropy) | public | **The nine holons**, one directory each. The substrate |
-| [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) | public | The memory substrate. Released library, its own repo, v0.5.0 in production |
+| [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) | public | The memory substrate. Released library, its own repo, v0.7.0 in production |
 | `strategy` | **private** | Master definition, market evidence, business model, competitive analysis |
 
-Nine `syntropy-<holon>` repositories were **archived** on 28 September 2026 after their
-contents were merged into the `syntropy` monorepo. They remain readable and state where
-their content went.
+Nine `syntropy-<holon>` repositories were **deleted** on 29 September 2026 after their
+contents were merged into the `syntropy` monorepo. Their history lives inside the monorepo.
 
 The private `strategy` repository holds what the public one must not: pricing,
 competitive analysis, risk register and the market evidence with its sources. Mixing "this

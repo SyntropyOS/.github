@@ -38,7 +38,7 @@ no es *qué sabe el sistema* sino **si puedes confiar en él**. Construimos infr
 | Repositorio | Visibilidad | Qué contiene |
 |---|---|---|
 | [`syntropy`](https://github.com/SyntropyOS/syntropy) | público | **Los nueve holones**, un directorio cada uno. El sustrato |
-| [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) | público | El sustrato de memoria. Librería publicada, v0.5.0 en producción |
+| [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) | público | El sustrato de memoria. Librería publicada, v0.7.0 en producción |
 | [`.github`](https://github.com/SyntropyOS/.github) | público | [Manifiesto](https://github.com/SyntropyOS/.github/blob/main/MANIFESTO_ES.md) · [Roadmap](https://github.com/SyntropyOS/.github/blob/main/ROADMAP_ES.md) · [Contribuir](https://github.com/SyntropyOS/.github/blob/main/CONTRIBUTING_ES.md) · Gobernanza |
 | `strategy` | **privado** | Definición de negocio, evidencia de mercado, precios, análisis competitivo |
 
@@ -57,7 +57,7 @@ organización real. Un holón sin caos asociado no se construye.
 
 | Holón | Función | El caos que resuelve | Estado |
 |---|---|---|---|
-| **VantaDB** | Memoria | Sustrato de todos: persistencia ACID y recuperación híbrida, local y soberana | [v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
+| **VantaDB** | Memoria | Sustrato de todos: persistencia ACID y recuperación híbrida, local y soberana | [v0.7.0](https://github.com/ness-e/Vantadb) ✅ |
 | [**Cardinal**](https://github.com/SyntropyOS/syntropy/tree/main/holons/cardinal) | Orientación | **Contexto**: qué sabemos, cuándo lo supimos y de quién | En construcción · 1º |
 | [**Iris**](https://github.com/SyntropyOS/syntropy/tree/main/holons/iris) | Visión | **Percepción**: lo que es imagen o papel y nadie puede consultar | En construcción · 2º |
 | [**Meta**](https://github.com/SyntropyOS/syntropy/tree/main/holons/meta) | Metacognición | **Confianza**: prueba de que la IA dijo la verdad | En construcción · 3º |
@@ -68,10 +68,10 @@ organización real. Un holón sin caos asociado no se construye.
 | [**Reverb**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reverb) · [**Reason**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reason) | Audio · Razonamiento | Fuera del alcance inicial | Aplazado |
 
 **Definido** significa que el diseño y los criterios de activación están documentados; no
-significa que esté en producción. Hoy solo un holón está en producción.
+significa que esté en producción. Hoy solo el sustrato (VantaDB) está en producción.
 
 **Cardinal** va primero porque los demás dependen de él: sin contexto verificable no hay
-nada que perceptionar ni que verificar. **Meta** subió de novena a tercera porque es el
+nada que percibir ni que verificar. **Meta** subió de novena a tercera porque es el
 diferenciador — la competencia vende capacidad, esto vende verificabilidad.
 
 ---

@@ -30,7 +30,7 @@ The problem is not artificial intelligence. It is that no system survives operat
 | Repository | Visibility | What it holds |
 |---|---|---|
 | [`syntropy`](https://github.com/SyntropyOS/syntropy) | public | **The nine holons**, one directory each. The substrate |
-| [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) | public | The memory substrate. Released library, v0.5.0 in production |
+| [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) | public | The memory substrate. Released library, v0.7.0 in production |
 | [`.github`](https://github.com/SyntropyOS/.github) | public | [Manifesto](https://github.com/SyntropyOS/.github/blob/main/MANIFESTO.md) · [Roadmap](https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md) · [Contributing](https://github.com/SyntropyOS/.github/blob/main/CONTRIBUTING.md) · Governance |
 | `strategy` | **private** | Business definition, market evidence, pricing, competitive analysis |
 
@@ -49,7 +49,7 @@ organization. A holon with no associated chaos does not get built.
 
 | Holon | Function | The chaos it resolves | Status |
 |-------|----------|----------------------|--------|
-| **VantaDB** | Memory | Substrate for all: ACID persistence and hybrid retrieval, local and sovereign | [v0.5.0](https://github.com/ness-e/Vantadb) ✅ |
+| **VantaDB** | Memory | Substrate for all: ACID persistence and hybrid retrieval, local and sovereign | [v0.7.0](https://github.com/ness-e/Vantadb) ✅ |
 | [**Cardinal**](https://github.com/SyntropyOS/syntropy/tree/main/holons/cardinal) | Orientation | **Context**: what we know, when we learned it, and from whom | In build · 1st |
 | [**Iris**](https://github.com/SyntropyOS/syntropy/tree/main/holons/iris) | Vision | **Perception**: what is an image or paper nobody can query | In build · 2nd |
 | [**Meta**](https://github.com/SyntropyOS/syntropy/tree/main/holons/meta) | Metacognition | **Trust**: evidence that the AI told the truth | In build · 3rd |
@@ -60,7 +60,7 @@ organization. A holon with no associated chaos does not get built.
 | [**Reverb**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reverb) · [**Reason**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reason) | Audio · Reasoning | Out of initial scope | Deferred |
 
 **Defined** means the design and activation criteria are documented; it does not mean it
-ships. Only one holon is in production today.
+ships. Only the substrate (VantaDB) is in production today.
 
 **Cardinal** is first because the others depend on it: without verifiable context there
 is nothing to perceive and nothing to verify. **Meta** moved from ninth to third because

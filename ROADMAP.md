@@ -1,4 +1,4 @@
-[English](./ROADMAP.md) | Español
+[Español](./ROADMAP_ES.md) | English
 
 # SyntropyOS Roadmap
 
