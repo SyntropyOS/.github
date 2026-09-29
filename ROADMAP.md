@@ -4,7 +4,7 @@
 
 > **Current status**: Only **VantaDB** (Memory) is in production. The other holons have a documented design and an activation criterion, but **none of them is built**. There are no release dates: the order is set by diagnosed demand, not by a calendar.
 
-**Holon repos**: [`syntropy-iris`](https://github.com/SyntropyOS/syntropy-iris) · [`syntropy-reverb`](https://github.com/SyntropyOS/syntropy-reverb) · [`syntropy-cardinal`](https://github.com/SyntropyOS/syntropy-cardinal) · [`syntropy-orchestra`](https://github.com/SyntropyOS/syntropy-orchestra) · [`syntropy-sage`](https://github.com/SyntropyOS/syntropy-sage) · [`syntropy-execute`](https://github.com/SyntropyOS/syntropy-execute) · [`syntropy-plan`](https://github.com/SyntropyOS/syntropy-plan) · [`syntropy-reason`](https://github.com/SyntropyOS/syntropy-reason) · [`syntropy-meta`](https://github.com/SyntropyOS/syntropy-meta)
+**Holons (monorepo)**: [`syntropy`](https://github.com/SyntropyOS/syntropy) — all 9 holons as directories. The individual `syntropy-<holon>` repos were archived on 2026-09-28 with their history preserved in the monorepo.
 
 ---
 
