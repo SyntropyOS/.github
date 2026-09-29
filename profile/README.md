@@ -45,6 +45,8 @@ Each holon exists because it resolves a specific **chaos** that gets diagnosed i
 
 **Defined** means the design and activation criteria are documented; it does not mean it ships. Only one holon is in production today.
 
+All nine holons now live in a single monorepo, [`SyntropyOS/syntropy`](https://github.com/SyntropyOS/syntropy), with one directory per holon. The individual `syntropy-<holon>` repositories were **archived** on 28 September 2026, with their full history preserved in the monorepo.
+
 See [ROADMAP.md](../ROADMAP.md).
 
 ---

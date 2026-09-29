@@ -45,6 +45,8 @@ Cada holón existe porque resuelve un **caos concreto** que se diagnostica en un
 
 **Definido** significa que tiene diseño documentado y criterio de activación; no significa que esté en producción. Solo un holón está en producción hoy.
 
+Los nueve holones viven ahora en un único monorepo, [`SyntropyOS/syntropy`](https://github.com/SyntropyOS/syntropy), con un directorio por holón. Los repositorios individuales `syntropy-<holon>` quedaron **archivados** el 28 de septiembre de 2026, con su historial completo preservado en el monorepo.
+
 Ver [ROADMAP.md](../ROADMAP_ES.md).
 
 ---
