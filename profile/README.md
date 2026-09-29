@@ -17,19 +17,43 @@
 
 SyntropyOS builds **infrastructure for AI agents**.
 
-Large language models have raw intelligence but no structure. SyntropyOS creates the organization layers that turn that intelligence into coherent, predictable, useful systems.
+Large language models have raw intelligence but no structure. SyntropyOS creates the
+organization layers that turn that intelligence into coherent, predictable, useful
+systems.
 
-We are like POSIX for the age of AI agents: we don't make applications, we make the foundations others build applications on.
+We are like POSIX for the age of AI agents: we don't make applications, we make the
+foundations others build applications on.
 
-The problem is not artificial intelligence. It is that no system survives operational reality: the power cuts, the person who configured it leaves, the source document is a PDF from 2019, and nobody knows where the data came from. So the test is not *what the system knows* but **whether you can trust it**. We build **verifiable, sovereign** infrastructure — not merely capable.
+The problem is not artificial intelligence. It is that no system survives operational
+reality: the power cuts, the person who configured it leaves, the source document is a
+PDF from 2019, and nobody knows where the data came from. So the test is not *what the
+system knows* but **whether you can trust it**. We build **verifiable, sovereign**
+infrastructure — not merely capable.
+
+---
+
+## Where things live
+
+| Repository | Visibility | What it holds |
+|---|---|---|
+| [`syntropy`](https://github.com/SyntropyOS/syntropy) | public | **The nine holons**, one directory each. The substrate |
+| [`ness-e/Vantadb`](https://github.com/ness-e/Vantadb) | public | The memory substrate. Released library, v0.5.0 in production |
+| [`.github`](https://github.com/SyntropyOS/.github) | public | [Manifesto](https://github.com/SyntropyOS/.github/blob/main/MANIFESTO.md) · [Roadmap](https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md) · [Contributing](https://github.com/SyntropyOS/.github/blob/main/CONTRIBUTING.md) · Governance |
+| `strategy` | **private** | Business definition, market evidence, pricing, competitive analysis |
+
+Nine `syntropy-<holon>` repositories were **archived** on 28 September 2026 after their
+contents were merged into the `syntropy` monorepo with their history preserved. They stay
+readable and say where their content went.
 
 ---
 
 ## Holons
 
-Each capability is a **holon**: autonomous yet connected — a whole in its own scope and part of the Syntropy ecosystem at the same time.
+Each capability is a **holon**: autonomous yet connected — a whole in its own scope and
+part of the Syntropy ecosystem at the same time.
 
-Each holon exists because it resolves a specific **chaos** that gets diagnosed in a real organization. A holon with no associated chaos does not get built.
+Each holon exists because it resolves a specific **chaos** that gets diagnosed in a real
+organization. A holon with no associated chaos does not get built.
 
 | Holon | Function | The chaos it resolves | Status |
 |-------|----------|----------------------|--------|
@@ -39,15 +63,34 @@ Each holon exists because it resolves a specific **chaos** that gets diagnosed i
 | [**Meta**](https://github.com/SyntropyOS/syntropy/tree/main/holons/meta) | Metacognition | **Trust**: evidence that the AI told the truth | In build · 3rd |
 | [**Execute**](https://github.com/SyntropyOS/syntropy/tree/main/holons/execute) | Execution | **Execution**: the automation breaks and nobody repairs it | Defined |
 | [**Sage**](https://github.com/SyntropyOS/syntropy/tree/main/holons/sage) | Learning | **Learning**: the system repeats what it was already corrected on | Defined |
-| [**Plan**](https://github.com/SyntropyOS/syntropy/tree/main/holons/plan) | Planning | Complementary: break work into verifiable steps | Defined |
-| [**Orchestra**](https://github.com/SyntropyOS/syntropy/tree/main/holons/orchestra) | Coordination | Runtime that makes the other holons cooperate | Defined · once 2+ exist |
+| [**Plan**](https://github.com/SyntropyOS/syntropy/tree/main/holons/plan) | Planning | **Decomposition**: nobody breaks the work down | Defined |
+| [**Orchestra**](https://github.com/SyntropyOS/syntropy/tree/main/holons/orchestra) | Coordination | **Runtime**: without it, the holons do not know how to cooperate | Defined · once 2+ exist |
 | [**Reverb**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reverb) · [**Reason**](https://github.com/SyntropyOS/syntropy/tree/main/holons/reason) | Audio · Reasoning | Out of initial scope | Deferred |
 
-**Defined** means the design and activation criteria are documented; it does not mean it ships. Only one holon is in production today.
+**Defined** means the design and activation criteria are documented; it does not mean it
+ships. Only one holon is in production today.
 
-All nine holons now live in a single monorepo, [`SyntropyOS/syntropy`](https://github.com/SyntropyOS/syntropy), with one directory per holon. The individual `syntropy-<holon>` repositories were **archived** on 28 September 2026, with their full history preserved in the monorepo.
+**Cardinal** is first because the others depend on it. **Meta** moved from ninth to third
+because it is the differentiator: the competition sells capability, this sells
+verifiability.
 
-See [ROADMAP.md](../ROADMAP.md).
+---
+
+## Build order
+
+```
+VantaDB  (substrate, in production)
+   └─► 1. Cardinal   context       ┐
+   └─► 2. Iris       perception    ├─ without Cardinal there is nothing to verify
+   └─► 3. Meta       trust         ┘
+   └─► 4. Execute    execution     requires prior trust
+   └─► 5. Sage       learning      requires trustworthy context
+   └─► 6. Plan       decomposition
+          Orchestra   runtime       once two holons are alive
+```
+
+No dates. The order comes out of the diagnosis, not out of a calendar. Full detail in the
+[roadmap](https://github.com/SyntropyOS/.github/blob/main/ROADMAP.md).
 
 ---
 
@@ -60,7 +103,7 @@ See [ROADMAP.md](../ROADMAP.md).
 5. **Evolution, Not Revolution**: Compatibility, gradual deprecation, documented migrations.
 6. **Radical Transparency**: Real status, documented decisions, visible roadmap.
 
-📖 **Full manifesto**: [MANIFESTO.md](../MANIFESTO.md)
+📖 **Full manifesto**: [MANIFESTO.md](https://github.com/SyntropyOS/.github/blob/main/MANIFESTO.md)
 
 ---
 
@@ -69,7 +112,7 @@ See [ROADMAP.md](../ROADMAP.md).
 - **🐛 Report bugs**: Issues on GitHub.
 - **💬 Community**: [Discord](https://discord.gg/g8nqB3NtXt)
 - **📧 Contact**: [syntropyos.ia@gmail.com](mailto:syntropyos.ia@gmail.com)
-- **📖 Contribute**: See [CONTRIBUTING.md](../CONTRIBUTING.md)
+- **📖 Contribute**: See [CONTRIBUTING.md](https://github.com/SyntropyOS/.github/blob/main/CONTRIBUTING.md)
 
 ---
 
@@ -77,12 +120,8 @@ See [ROADMAP.md](../ROADMAP.md).
 
 Code under Apache 2.0 (personal and commercial use allowed).
 
-📖 **Details**: [LICENSE](../LICENSE)
+📖 **Details**: [LICENSE](https://github.com/SyntropyOS/.github/blob/main/LICENSE)
 
 ---
 
 **SyntropyOS** — Order out of chaos.
-
-
-
-
