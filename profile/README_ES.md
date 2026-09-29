@@ -21,8 +21,9 @@ Los modelos de lenguaje grandes tienen inteligencia cruda pero ninguna estructur
 SyntropyOS crea las capas de organización que convierten esa inteligencia en sistemas
 coherentes, predecibles y útiles.
 
-Somos como POSIX para la era de los agentes de IA: no hacemos aplicaciones, hacemos los
-cimientos sobre los que otros construyen aplicaciones.
+Queremos ser como POSIX para la era de los agentes de IA: no hacemos aplicaciones, hacemos
+los cimientos sobre los que otros construyen aplicaciones. Aquí no hay nada construido
+todavía salvo el sustrato, y preferimos decirlo antes que insinuarlo.
 
 El problema no es la inteligencia artificial. Es que ningún sistema sobrevive a la
 realidad operativa: se corta la luz, se va la persona que lo configuró, el documento

@@ -19,7 +19,7 @@ SyntropyOS builds **infrastructure for AI agents**.
 
 Large language models have raw intelligence but no structure. SyntropyOS creates the organization layers that turn that intelligence into coherent, predictable, useful systems.
 
-We are like POSIX for the age of AI agents: we don't make applications, we make the foundations others build applications on.
+We intend to be POSIX for the age of AI agents: we don't make applications, we make the foundations others build applications on. Nothing here is built yet except the substrate, and we would rather say that than imply otherwise.
 
 The problem is not artificial intelligence. It is that no system survives operational reality: the power cuts, the person who configured it leaves, the source document is a PDF from 2019, and nobody knows where the data came from. So the test is not *what the system knows* but **whether you can trust it**. We build **verifiable, sovereign** infrastructure — not merely capable.
 

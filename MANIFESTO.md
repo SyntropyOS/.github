@@ -32,22 +32,22 @@ And the order we build is not *knowing more*. It is **being able to trust**.
      without understanding where the client fails is not infrastructure, it is an
      expensive assumption.
 
-3. **That pragmatism beats purity**
+4. **That pragmatism beats purity**
    - Local-first when it makes sense.
    - Cloud when needed.
    - Hybrid when optimal.
 
-4. **That strategic openness is sustainable**
+5. **That strategic openness is sustainable**
    - Open source with commercial licenses for sustainability.
    - Open protocols for interoperability.
    - Active contributor community.
 
-5. **That coherence matters more than complexity**
+6. **That coherence matters more than complexity**
    - Simple APIs.
    - Predictable behavior.
    - Explainable failures.
 
-6. **That transparency builds trust**
+7. **That transparency builds trust**
    - Real status, not marketing.
    - Documented decisions, not arbitrary ones.
    - Visible roadmap, not secret.

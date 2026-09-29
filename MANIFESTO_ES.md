@@ -32,22 +32,22 @@ Y el orden que construimos no es *saber más*. Es **poder confiar**.
      vende sin entender dónde falla el cliente no es infraestructura, es un supuesto
      caro.
 
-3. **Que el pragmatismo supera a la pureza**
+4. **Que el pragmatismo supera a la pureza**
    - Local-first cuando tiene sentido.
    - Cloud cuando es necesario.
    - Híbrido cuando es óptimo.
 
-4. **Que la apertura estratégica es sostenible**
+5. **Que la apertura estratégica es sostenible**
    - Open-source con licencias comerciales para sostenibilidad.
    - Protocolos abiertos para interoperabilidad.
    - Comunidad activa de contribuyentes.
 
-5. **Que la coherencia es más importante que la complejidad**
+6. **Que la coherencia es más importante que la complejidad**
    - APIs simples.
    - Comportamiento predecible.
    - Fallos explicables.
 
-6. **Que la transparencia construye confianza**
+7. **Que la transparencia construye confianza**
    - Estado real, no marketing.
    - Decisiones documentadas, no arbitrarias.
    - Roadmap visible, no secreto.
